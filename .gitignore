@@ -2,15 +2,23 @@
 *.o
 *.obj
 *.exe
-# 忽略所有
-/*
 # 跟踪文件
 !.vscode/
 !.gitignore
-!*.h
-!*.c
-!*.cpp
 !*.md
-!leetcode/
-!nowcoder/
-!projecteuler/
+# 忽略所有除.h .c .cpp .md所有文件
+/leetcode/*
+!leetcode/*.h
+!leetcode/*.c
+!leetcode/*.cpp
+!leetcode/*.md
+/nowcoder/*
+!nowcoder/*.h
+!nowcoder/*.c
+!nowcoder/*.cpp
+!nowcoder/*.md
+/projecteuler/*
+!projecteuler/*.h
+!projecteuler/*.c
+!projecteuler/*.cpp
+!projecteuler/*.md
