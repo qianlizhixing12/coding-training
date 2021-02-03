@@ -1,0 +1,16 @@
+# C C++
+*.o
+*.obj
+*.exe
+# 忽略所有
+/*
+# 跟踪文件
+!.vscode/
+!.gitignore
+!*.h
+!*.c
+!*.cpp
+!*.md
+!leetcode/
+!nowcoder/
+!projecteuler/
