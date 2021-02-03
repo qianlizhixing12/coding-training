@@ -20,6 +20,13 @@ private:
       dfs(left - 1, right, cur + '(', result);
       dfs(left, right - 1, cur + ')', result);
     }
+    // 更精简条件
+    // if (l > 0) {
+    //   this->help(s + '(', l - 1, r, ans);
+    // }
+    // if (l < r) {
+    //   this->help(s + ')', l, r - 1, ans);
+    // }
   }
 
 public:
