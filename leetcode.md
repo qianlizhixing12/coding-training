@@ -75,7 +75,7 @@
 - [429 N叉树的层序遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
 - [144 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 - [94 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
-- [102 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+- [102 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 - [515 在每个树行中找最大值](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/)
 - [22 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
