@@ -82,6 +82,7 @@
 - [865 具有所有最深节点的最小子树](https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes/)
 - [1306 跳跃游戏 III](https://leetcode-cn.com/problems/jump-game-iii/)
 - [538 1038 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/binary-search-tree-to-greater-sum-tree/)
+- [17 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
@@ -97,7 +98,6 @@
 - [47 全排列 II](https://leetcode-cn.com/problems/permutations/)
 - [50 Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
 - [78 子集](https://leetcode-cn.com/problems/powx-n/)
-- [17 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 
 ## HashTable
 
