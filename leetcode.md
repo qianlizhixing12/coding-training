@@ -87,6 +87,7 @@
 - [395 至少有K个重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters/)
 - [779 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/)
 - [687 最长同值路径](https://leetcode-cn.com/problems/longest-univalue-path/)
+- [967 连续差相同的数字](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
