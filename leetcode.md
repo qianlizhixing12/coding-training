@@ -95,6 +95,7 @@
 - [226 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
 - [700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 - [108 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+- [559 N叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
