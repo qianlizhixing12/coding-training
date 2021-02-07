@@ -93,6 +93,7 @@
 - [124 二叉树中的最大路径和](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/)
 - [617 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/)
 - [226 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+- [700 二叉搜索树中的搜索](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
