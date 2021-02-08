@@ -106,6 +106,7 @@
 - [530 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/)
 - [100 相同的树](https://leetcode-cn.com/problems/same-tree/)
 - [653 两数之和IV-输入BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)
+- [404 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
