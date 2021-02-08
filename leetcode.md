@@ -101,6 +101,7 @@
 - [965 单值二叉树](https://leetcode-cn.com/problems/univalued-binary-tree/)
 - [107 二叉树的层序遍历II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/)
 - [257 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+- [235 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
