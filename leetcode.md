@@ -110,6 +110,7 @@
 - [606 根据二叉树创建字符串](https://leetcode-cn.com/problems/construct-string-from-binary-tree/)
 - [101 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 - [993 二叉树的堂兄弟节点](https://leetcode-cn.com/problems/cousins-in-binary-tree/)
+- [543 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
