@@ -116,6 +116,7 @@
 - [572 另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)
 - [111 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 - [671 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)
+- [654 最大二叉树](https://leetcode-cn.com/problems/minesweeper/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
