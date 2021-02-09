@@ -122,6 +122,7 @@
 - [222 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes/)
 - [173 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
 - [1305 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)
+- [145 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
