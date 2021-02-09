@@ -118,6 +118,7 @@
 - [671 二叉树中第二小的节点](https://leetcode-cn.com/problems/second-minimum-node-in-a-binary-tree/)
 - [654 最大二叉树](https://leetcode-cn.com/problems/minesweeper/)
 - [1302 层数最深叶子节点的和](https://leetcode-cn.com/problems/deepest-leaves-sum/)
+- [1315 祖父节点值为偶数的节点和](https://leetcode-cn.com/problems/sum-of-nodes-with-even-valued-grandparent/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
