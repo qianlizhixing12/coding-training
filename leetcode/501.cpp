@@ -44,7 +44,7 @@ public:
     count = 0;
     max = 1;
     vector<int> ans;
-    preorder(root, ans);
+    inorder(root, ans);
     return ans;
   }
 };
