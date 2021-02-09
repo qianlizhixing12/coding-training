@@ -113,6 +113,7 @@
 - [543 二叉树的直径](https://leetcode-cn.com/problems/diameter-of-binary-tree/)
 - [112 路径总和](https://leetcode-cn.com/problems/path-sum/)
 - [501 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/)
+- [572 另一个树的子树](https://leetcode-cn.com/problems/subtree-of-another-tree/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
