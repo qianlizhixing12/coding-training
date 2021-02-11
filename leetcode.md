@@ -145,6 +145,7 @@
 - [951 翻转等价二叉树](https://leetcode-cn.com/problems/flip-equivalent-binary-trees/)
 - [508 出现次数最多的子树元素和](https://leetcode-cn.com/problems/most-frequent-subtree-sum/)
 - [1457 二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
+- [1026 节点与其祖先之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
