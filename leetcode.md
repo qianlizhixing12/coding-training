@@ -147,6 +147,7 @@
 - [1457 二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 - [1026 节点与其祖先之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-node-and-ancestor/)
 - [199 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/)
+- [919 完全二叉树插入器](https://leetcode-cn.com/problems/complete-binary-tree-inserter/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
