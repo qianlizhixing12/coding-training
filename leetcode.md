@@ -151,6 +151,7 @@
 - [113 路径总和II](https://leetcode-cn.com/problems/path-sum-ii/)
 - [1110 删点成林](https://leetcode-cn.com/problems/delete-nodes-and-return-forest/)
 - [337 打家劫舍III](https://leetcode-cn.com/problems/house-robber-iii/)
+- [998 最大二叉树II](https://leetcode-cn.com/problems/maximum-binary-tree-ii/)
 - [529 扫雷游戏](https://leetcode-cn.com/problems/minesweeper/)
 - [433 最小基因变化](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 - [127 单词接龙](https://leetcode-cn.com/problems/word-ladder/)
