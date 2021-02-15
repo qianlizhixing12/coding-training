@@ -171,6 +171,7 @@
 - [49 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
 - [771 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
 - [1512 好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)
+- [1365 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
 ## 排序
 
