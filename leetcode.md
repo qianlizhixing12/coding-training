@@ -170,6 +170,7 @@
 - [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)
 - [49 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
 - [771 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
+- [1512 好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)
 
 ## 排序
 
