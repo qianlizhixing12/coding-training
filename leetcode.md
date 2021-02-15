@@ -169,16 +169,6 @@
 - [hashtable操作](hashtable.md)
 
 - [1 两数之和](https://leetcode-cn.com/problems/two-sum/description/)
-
-  ```思路
-  #### 解法
-  暴力循环
-  排序后左右夹逼
-  两遍哈希
-  一遍哈希
-  ####
-  ```
-
 - [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)
 - [49 字母异位词分组](https://leetcode-cn.com/problems/valid-anagram/description/)
 
