@@ -175,6 +175,7 @@
 - [1748 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)
 - [1002 查找常用字符](https://leetcode-cn.com/problems/find-common-characters/)
 - [349 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+- [1207 独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/)
 
 ## 排序
 
