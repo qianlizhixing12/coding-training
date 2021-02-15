@@ -174,6 +174,7 @@
 - [1365 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 - [1748 唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)
 - [1002 查找常用字符](https://leetcode-cn.com/problems/find-common-characters/)
+- [349 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 
 ## 排序
 
