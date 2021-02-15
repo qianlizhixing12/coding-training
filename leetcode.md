@@ -160,7 +160,7 @@
 - [126 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/)
 - [77 组合](https://leetcode-cn.com/problems/combinations/)
 - [46 全排列](https://leetcode-cn.com/problems/permutations/)
-- [47 全排列 II](https://leetcode-cn.com/problems/permutations/)
+- [47 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
 - [50 Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
 - [78 子集](https://leetcode-cn.com/problems/powx-n/)
 
