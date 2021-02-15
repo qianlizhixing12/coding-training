@@ -166,8 +166,6 @@
 
 ## HashTable
 
-- [hashtable操作](hashtable.md)
-
 - [1 两数之和](https://leetcode-cn.com/problems/two-sum/description/)
 - [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)
 - [49 字母异位词分组](https://leetcode-cn.com/problems/valid-anagram/description/)
