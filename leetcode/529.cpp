@@ -46,17 +46,11 @@ public:
 };
 
 int main() {
-  // vector<vector<char>> board = {{'E', 'E', 'E', 'E', 'E'},
-  //                               {'E', 'E', 'M', 'E', 'E'},
-  //                               {'E', 'E', 'E', 'E', 'E'},
-  //                               {'E', 'E', 'E', 'E', 'E'}};
-  // vector<int> click = {3, 0};
-
-  vector<vector<char>> board = {{"B", "1", "E", "1", "B"},
-                                {"B", "1", "M", "1", "B"},
-                                {"B", "1", "1", "1", "B"},
-                                {"B", "B", "B", "B", "B"}};
-  vector<int> click = {1, 2};
+  vector<vector<char>> board = {{'E', 'E', 'E', 'E', 'E'},
+                                {'E', 'E', 'M', 'E', 'E'},
+                                {'E', 'E', 'E', 'E', 'E'},
+                                {'E', 'E', 'E', 'E', 'E'}};
+  vector<int> click = {3, 0};
   Solution().updateBoard(board, click);
   return 0;
 }
