@@ -178,6 +178,7 @@
 - [349 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
 - [1207 独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/)
 - [136 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
+- [1640 能否连接形成数组](https://leetcode-cn.com/problems/check-array-formation-through-concatenation/)
 
 ## 排序
 
