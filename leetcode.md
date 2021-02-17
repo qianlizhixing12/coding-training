@@ -19,6 +19,7 @@
 - [15 三数之和](https://leetcode-cn.com/problems/3sum/)
 - [189 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 - [42 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+- [566 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/)
 
 ## 链表
 
