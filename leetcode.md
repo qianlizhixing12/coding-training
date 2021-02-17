@@ -181,6 +181,7 @@
 - [136 只出现一次的数字](https://leetcode-cn.com/problems/single-number/)
 - [1640 能否连接形成数组](https://leetcode-cn.com/problems/check-array-formation-through-concatenation/)
 - [500 键盘行](https://leetcode-cn.com/problems/keyboard-row/)
+- [389 找不同](https://leetcode-cn.com/problems/find-the-difference/)
 
 ## 排序
 
