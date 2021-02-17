@@ -185,7 +185,8 @@
 - [389 找不同](https://leetcode-cn.com/problems/find-the-difference/)
 - [811 子域名访问计数](https://leetcode-cn.com/problems/subdomain-visit-count/)
 
-## 排序
+## 插入排序
 
-- [插入排序](insertSort.md)
-- [归并排序](mergeSort.md)
+- [1528 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
+
+## 归并排序
