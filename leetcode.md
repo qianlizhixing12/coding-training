@@ -20,6 +20,7 @@
 - [189 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 - [42 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
 - [566 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/)
+- [9 回文数](https://leetcode-cn.com/problems/palindrome-number/)
 
 ## 链表
 
@@ -195,3 +196,9 @@
 - [1528 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
 - [1122 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
 - [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+- [todo 未完成493 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+- [todo 未完成146 LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+
+## 字符串处理
+
+- [todo 未完成8 字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
