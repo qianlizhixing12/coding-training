@@ -51,6 +51,7 @@
   ```
 
 - [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+- [995 K连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 
   ```思路
   #### 解法
