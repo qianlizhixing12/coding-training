@@ -194,3 +194,4 @@
 
 - [1528 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
 - [1122 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
+- [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
