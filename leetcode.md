@@ -29,6 +29,7 @@
 - [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [142 环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 - [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 - [430 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
