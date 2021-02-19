@@ -1,2 +1,3 @@
 - [NC1 大数加法](https://www.nowcoder.com/practice/11ae12e8c6fe48f883cad618c2e81475)
+- [NC2 重排链表](https://www.nowcoder.com/practice/3d281dc0b3704347846a110bf561ef6b)
 - [NC45 实现二叉树先序，中序和后序遍历](https://www.nowcoder.com/practice/a9fec6c46a684ad5a3abd4e365a9d362)
