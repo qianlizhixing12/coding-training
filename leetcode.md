@@ -192,6 +192,7 @@
 - [389 找不同](https://leetcode-cn.com/problems/find-the-difference/)
 - [811 子域名访问计数](https://leetcode-cn.com/problems/subdomain-visit-count/)
 - [1160 拼写单词](https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/)
+- [575 分糖果](https://leetcode-cn.com/problems/distribute-candies/)
 
 ## 排序
 
