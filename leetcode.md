@@ -208,7 +208,7 @@
 
 ## 字符串处理
 
-- [todo 未完成8 字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+- [8 字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 - [6 Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
 - [14 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
 
