@@ -209,6 +209,7 @@
 ## 字符串处理
 
 - [todo 未完成8 字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
+- [6 Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
 
 ## 数字处理
 
