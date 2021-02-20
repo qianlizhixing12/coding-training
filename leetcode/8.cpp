@@ -16,25 +16,15 @@ public:
       start++;
     }
     int d_ = s[start] == '-' ? -1 : 1;
-    bool n_ = false;
-    long long val = 0;
     int i = s[start] == '-' || s[start] == '+' ? start + 1 : start;
+    long long val = 0;
     for (; i < s.size(); i++) {
       if ((s[i] < '0' || s[i] > '9')) {
-        if (s[i] == ' ' && !n_) {
-          continue;
-        }
         break;
       }
-      if (s[i] >= '0' && s[i] <= '9') {
-        val = val * 10 + (s[i] - '0');
-        // val = d_ == 1 ? min(val, (long long)INT_MAX)
-        //               : max(val, (long long)INT_MIN);
-        val = d_ == 1 ? min(val, (long long)INT_MAX)
-                      : min(val, -(long long)INT_MIN);
-        n_ = true;
-        continue;
-      }
+      val = val * 10 + (s[i] - '0');
+      val = d_ == 1 ? min(val, (long long)INT_MAX)
+                    : min(val, -(long long)INT_MIN);
     }
     return val * d_;
   }
