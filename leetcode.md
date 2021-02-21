@@ -23,6 +23,7 @@
 - [566 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix/)
 - [9 回文数](https://leetcode-cn.com/problems/palindrome-number/)
 - [1004 最大连续1的个数III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
+- [766 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/)
 
 ## 链表
 
