@@ -63,6 +63,10 @@
   ####
   ```
 
+## 滑动窗口
+
+- [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+
 ## 树 递归 分治 回溯
 
 - [2 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
