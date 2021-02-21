@@ -228,3 +228,7 @@
 - [7 整数反转](https://leetcode-cn.com/problems/reverse-integer/)
 - [13 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
 - [12 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
+
+## 二分查找
+
+- [1351 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
