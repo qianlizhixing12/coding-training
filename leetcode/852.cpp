@@ -12,9 +12,9 @@ public:
       if (arr[mid - 1] < arr[mid] && arr[mid] > arr[mid + 1]) {
         return mid;
       } else if (arr[mid - 1] < arr[mid] && arr[mid] < arr[mid + 1]) {
-        l = mid + 1;
+        l = mid;
       } else {
-        r = mid - 1;
+        r = mid;
       }
     }
     return -1;
