@@ -186,6 +186,7 @@
 ## 动态规划
 
 - [120 三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/)
+- [121 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## HashTable
 
