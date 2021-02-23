@@ -69,6 +69,7 @@
 ## 滑动窗口
 
 - [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [1052 爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
 
 ## 双指针
 
