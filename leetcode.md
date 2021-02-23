@@ -24,6 +24,7 @@
 - [9 回文数](https://leetcode-cn.com/problems/palindrome-number/)
 - [1004 最大连续1的个数III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 - [766 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/)
+- [832 翻转图像](https://leetcode-cn.com/problems/flipping-an-image/)
 
 ## 链表
 
