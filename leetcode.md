@@ -25,6 +25,7 @@
 - [1004 最大连续1的个数III](https://leetcode-cn.com/problems/max-consecutive-ones-iii/)
 - [766 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/)
 - [832 翻转图像](https://leetcode-cn.com/problems/flipping-an-image/)
+- [867 转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
 
 ## 链表
 
@@ -188,6 +189,7 @@
 
 - [509 斐波那契数](https://leetcode-cn.com/problems/fibonacci-number/)
 - [322 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
+- [518 零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)
 - [120 三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/)
 - [121 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
