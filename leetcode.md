@@ -215,6 +215,7 @@
 - [575 分糖果](https://leetcode-cn.com/problems/distribute-candies/)
 - [961 重复N次的元素](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/)
 - [697 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/)
+- [884 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)
 
 ## 排序
 
