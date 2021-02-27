@@ -26,6 +26,7 @@
 - [766 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix/)
 - [832 翻转图像](https://leetcode-cn.com/problems/flipping-an-image/)
 - [867 转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
+- [498 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/)
 
 ## 链表
 
@@ -217,6 +218,7 @@
 - [961 重复N次的元素](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array/)
 - [697 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/)
 - [884 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)
+- [1178 猜字谜](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)
 
 ## 排序
 
