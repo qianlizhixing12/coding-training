@@ -223,6 +223,7 @@
 - [697 数组的度](https://leetcode-cn.com/problems/degree-of-an-array/)
 - [884 两句话中的不常见单词](https://leetcode-cn.com/problems/uncommon-words-from-two-sentences/)
 - [1178 猜字谜](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)
+- [1189 “气球”的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)
 
 ## 排序
 

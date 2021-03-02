@@ -12,6 +12,7 @@
 !leetcode/*.c
 !leetcode/*.cpp
 !leetcode/*.md
+!leetcode/*.py
 /nowcoder/*
 !nowcoder/*.h
 !nowcoder/*.c
