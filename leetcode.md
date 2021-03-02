@@ -28,6 +28,7 @@
 - [867 转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
 - [498 对角线遍历](https://leetcode-cn.com/problems/diagonal-traverse/)
 - [303 区域和检索-数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)
+- [304 二维区域和检索-矩阵不可变](https://leetcode-cn.com/problems/range-sum-query-2d-immutable/)
 
 ## 链表
 
