@@ -195,6 +195,7 @@
 - [70 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)
 - [322 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
 - [518 零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)
+- [64 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
 - [120 三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/)
 - [121 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
