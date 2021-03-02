@@ -239,6 +239,7 @@
 - [6 Z字形变换](https://leetcode-cn.com/problems/zigzag-conversion/)
 - [14 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)
 - [916 单词子集](https://leetcode-cn.com/problems/word-subsets/)
+- [28 实现strStr()](https://leetcode-cn.com/problems/implement-strstr/)
 
 ## 数字处理
 
