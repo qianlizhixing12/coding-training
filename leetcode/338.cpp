@@ -12,4 +12,12 @@ public:
     }
     return result;
   }
+
+  vector<int> countBits_(int num) {
+    vector<int> result(num + 1, 0);
+    for (int i = 1; i <= num; i++) {
+      result[i] = __bulitin_popcount(i);
+    }
+    return result;
+  }
 };
