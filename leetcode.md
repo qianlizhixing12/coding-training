@@ -231,7 +231,6 @@
 - [1528 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
 - [1122 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
 - [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
-- [面试题01.01.判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)
 - [todo 未完成493 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
 - [todo 未完成146 LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
@@ -254,3 +253,7 @@
 - [1351 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 - [852 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)
 - [1337 矩阵中战斗力最弱的K行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)
+
+## 程序员面试金典
+- [面试题01.01.判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)
+- [面试题01.02.判定是否互为字符重排](https://leetcode-cn.com/problems/check-permutation-lcci/)
