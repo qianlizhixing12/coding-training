@@ -196,6 +196,7 @@
 - [322 零钱兑换](https://leetcode-cn.com/problems/coin-change/)
 - [518 零钱兑换II](https://leetcode-cn.com/problems/coin-change-2/)
 - [53 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)
+- [152 乘积最大子数组](https://leetcode-cn.com/problems/maximum-product-subarray/)
 - [64 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/)
 - [120 三角形最小路径和](https://leetcode-cn.com/problems/triangle/description/)
 - [121 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
@@ -262,3 +263,4 @@
 
 ## 剑指Offer
 - [剑指Offer03.数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+- [剑指Offer04.二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
