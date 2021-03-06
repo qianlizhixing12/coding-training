@@ -52,19 +52,10 @@
 - [503 下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
 - [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
-  ```思路
-  #### 解法一
-  先找到最小的元素，再从分成两部分分治
-  超时了！！！
-  优化，可以比较左右两段的最小值，不需要循环找最小值
-  ####
-  
-  #### 解法二
-  利用栈，保存元素索引，保持栈为单调递增
-  可以根据索引可以计算距离即宽度
-  ####
-  ```
+## 滑动窗口
 
+- [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+- [1052 爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
 - [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 - [995 K连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 
@@ -74,11 +65,6 @@
   用C写的执行时间远大于用JAVA写的执行时间，自己数组实现的双端队列，执行效率很差！！！
   ####
   ```
-
-## 滑动窗口
-
-- [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
-- [1052 爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
 
 ## 双指针
 
