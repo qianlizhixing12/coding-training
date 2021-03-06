@@ -47,8 +47,9 @@
 - [641 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 - [155 最小栈](https://leetcode-cn.com/problems/min-stack/)
 - [232 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
-- [496 下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/)
 - [739 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+- [496 下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/)
+- [503 下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
 - [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 
   ```思路
