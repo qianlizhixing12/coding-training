@@ -51,12 +51,12 @@
 - [496 下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/)
 - [503 下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
 - [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+- [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 
 ## 滑动窗口
 
 - [1438 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 - [1052 爱生气的书店老板](https://leetcode-cn.com/problems/grumpy-bookstore-owner/)
-- [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 - [995 K连续位的最小翻转次数](https://leetcode-cn.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 
   ```思路
