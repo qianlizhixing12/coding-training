@@ -266,4 +266,5 @@
 - [剑指Offer12.矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)
 - [剑指Offer13.机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)
 - [剑指Offer14-I.剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
+- [剑指Offer14-II.剪绳子II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)
 - [剑指Offer15.二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
