@@ -268,3 +268,4 @@
 - [剑指Offer14-I.剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)
 - [剑指Offer14-II.剪绳子II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)
 - [剑指Offer15.二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)
+- [剑指Offer16.数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)
