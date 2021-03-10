@@ -53,6 +53,7 @@
 - [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 - [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
 - [1047 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
+- [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
 
 ## 滑动窗口
 
