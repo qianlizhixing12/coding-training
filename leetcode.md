@@ -56,6 +56,7 @@
 - [150 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 - [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
 - [227 基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)
+- [331 验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/)
 
 ## 滑动窗口
 
