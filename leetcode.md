@@ -226,6 +226,7 @@
 - [1178 猜字谜](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle/)
 - [1189 “气球”的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balloons/)
 - [705 设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)
+- [706 设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)
 
 ## 排序
 
