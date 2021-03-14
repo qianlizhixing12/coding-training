@@ -55,6 +55,7 @@
 - [1047 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
 - [150 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 - [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
+- [227 基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)
 
 ## 滑动窗口
 
