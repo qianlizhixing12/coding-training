@@ -36,6 +36,7 @@
 
 - [21 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 - [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+- [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 - [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [142 环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
