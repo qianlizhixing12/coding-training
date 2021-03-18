@@ -12,15 +12,15 @@ class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         dummy = Node(0)
         cur = dummy
-        # help结构 源节点 -> List[源节点对应复制节点，源节点对应random节点]
+        # help结构 源节点 -> 对应复制节点
         help = {}
         while head:
             tmp = Node(head.val)
             cur.next = tmp
-            help[head] = [tmp, head.random]
+            help[head] = tmp
             head = head.next
             cur = cur.next
         for node in help:
-            help[node][0].random = help[help[node]
-                                        [1]][0] if help[node][1] else None
+            if node.random:
+                help[node].random = help[node.random]
         return dummy.next
