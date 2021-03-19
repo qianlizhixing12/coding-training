@@ -15,3 +15,4 @@
 - [15 到达网格的路径数](https://projecteuler.net/problem=15)
 - [16 2的幂各个位数字之和](https://projecteuler.net/problem=16)
 - [17 数字英文写法包含的字母](https://projecteuler.net/problem=17)
+- [18 三角路径最大值](https://projecteuler.net/problem=18)
