@@ -13,3 +13,4 @@
 - [13 数字和前10位](https://projecteuler.net/problem=13)
 - [14 最长Collatz序列](https://projecteuler.net/problem=14)
 - [15 到达网格的路径数](https://projecteuler.net/problem=15)
+- [16 2的幂各个位数字之和](https://projecteuler.net/problem=16)
