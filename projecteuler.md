@@ -9,4 +9,5 @@
 - [9 毕达哥拉斯三元数组](https://projecteuler.net/problem=9)
 - [10 范围内质数和](https://projecteuler.net/problem=10)
 - [11 相邻数字最大乘积](https://projecteuler.net/problem=11)
-- [12 相邻数字最大乘积](https://projecteuler.net/problem=12)
+- [12 质因子个数](https://projecteuler.net/problem=12)
+- [13 质因子个数](https://projecteuler.net/problem=12)
