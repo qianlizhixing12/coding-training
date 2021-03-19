@@ -6,3 +6,4 @@
 - [6 和平方与平方和值之差](https://projecteuler.net/problem=6)
 - [7 第10001个质数](https://projecteuler.net/problem=7)
 - [8 第10001个质数](https://projecteuler.net/problem=8)
+- [9 毕达哥拉斯三元数组](https://projecteuler.net/problem=9)
