@@ -4,3 +4,4 @@
 - [4 最大回文数](https://projecteuler.net/problem=4)
 - [5 最小合数](https://projecteuler.net/problem=5)
 - [6 和平方与平方和值之差](https://projecteuler.net/problem=6)
+- [7 第10001个质数](https://projecteuler.net/problem=7)
