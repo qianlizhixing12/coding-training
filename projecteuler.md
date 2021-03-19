@@ -10,4 +10,5 @@
 - [10 范围内质数和](https://projecteuler.net/problem=10)
 - [11 相邻数字最大乘积](https://projecteuler.net/problem=11)
 - [12 质因子个数](https://projecteuler.net/problem=12)
-- [13 质因子个数](https://projecteuler.net/problem=12)
+- [13 数字和前10位](https://projecteuler.net/problem=13)
+- [14 最长Collatz序列](https://projecteuler.net/problem=14)
