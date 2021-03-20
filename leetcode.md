@@ -242,7 +242,7 @@
 - [1122 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
 - [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
 - [todo 未完成493 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
-- [todo 未完成146 LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+- [146 LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
 
 ## 字符串处理
 
