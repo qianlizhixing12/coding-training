@@ -46,6 +46,7 @@
 - [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 - [430 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
 - [23 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+- [83 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 
 ## 栈 队列
 
