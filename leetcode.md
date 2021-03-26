@@ -318,3 +318,4 @@
 - [剑指Offer53-II.0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)
 - [剑指Offer54.二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 - [剑指Offer55-I.二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)
+- [剑指Offer55-II.平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
