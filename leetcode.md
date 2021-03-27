@@ -48,6 +48,7 @@
 - [23 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 - [83 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
 - [82 删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [61 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 
 ## 栈 队列
 
