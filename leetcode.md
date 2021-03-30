@@ -272,6 +272,7 @@
 - [852 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)
 - [1337 矩阵中战斗力最弱的K行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)
 - [34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+- [74 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
 ## 程序员面试金典
 - [面试题01.01.判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)
