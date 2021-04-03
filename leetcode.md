@@ -214,6 +214,7 @@
 - [todo 未完成5 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 - [121 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
 - [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [1143 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
 
 ## HashTable
 
