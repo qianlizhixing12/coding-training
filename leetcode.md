@@ -243,6 +243,7 @@
 - [705 设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)
 - [706 设计哈希映射](https://leetcode-cn.com/problems/design-hashmap/)
 - [138 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/)
+- [781 森林中的兔子](https://leetcode-cn.com/problems/rabbits-in-forest/)
 
 ## 排序
 
