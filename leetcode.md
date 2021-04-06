@@ -13,6 +13,7 @@
 - [11 盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)
 - [485 最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones/)
 - [26 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
+- [80 删除有序数组中的重复项II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
 - [27 移除元素](https://leetcode-cn.com/problems/remove-element/description/)
 - [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [66 加一](https://leetcode-cn.com/problems/plus-one/)
