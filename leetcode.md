@@ -277,6 +277,7 @@
 - [852 山脉数组的峰顶索引](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array/)
 - [1337 矩阵中战斗力最弱的K行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)
 - [33 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)
+- [81 搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 - [34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [74 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
