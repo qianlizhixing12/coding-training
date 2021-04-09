@@ -279,6 +279,7 @@
 - [33 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)
 - [81 搜索旋转排序数组II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)
 - [153 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+- [154 寻找旋转排序数组中的最小值II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [74 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 
