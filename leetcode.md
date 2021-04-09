@@ -270,6 +270,7 @@
 - [13 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)
 - [12 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
 - [1006 笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial/)
+- [263 丑数](https://leetcode-cn.com/problems/ugly-number/)
 
 ## 二分查找
 
