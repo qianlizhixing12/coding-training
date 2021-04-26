@@ -295,6 +295,7 @@
 - [154 寻找旋转排序数组中的最小值II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 - [34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [74 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+- [1011 在D天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
 
 ## 程序员面试金典
 - [面试题01.01.判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)
