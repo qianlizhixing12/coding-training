@@ -283,6 +283,7 @@
 - [12 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)
 - [1006 笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial/)
 - [263 丑数](https://leetcode-cn.com/problems/ugly-number/)
+- [633 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/)
 
 ## 二分查找
 
