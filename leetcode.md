@@ -201,6 +201,7 @@
 - [131 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)
 - [132 分割回文串II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/)
 - [173 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+- [690 员工的重要性](https://leetcode-cn.com/problems/employee-importance/)
 
 ## 字典树
 
