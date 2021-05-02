@@ -260,6 +260,7 @@
 - [217 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/)
 - [219 存在重复元素II](https://leetcode-cn.com/problems/contains-duplicate-ii/)
 - [220 存在重复元素III](https://leetcode-cn.com/problems/contains-duplicate-iii/)
+- [554 砖墙](https://leetcode-cn.com/problems/brick-wall/)
 
 ## 排序
 
