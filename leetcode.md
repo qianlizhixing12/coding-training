@@ -6,6 +6,7 @@
 - [190 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
 - [338 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
 - [169 多数元素](https://leetcode-cn.com/problems/majority-element/)
+- [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
 
 ## 数组
 
