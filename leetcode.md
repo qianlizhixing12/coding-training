@@ -7,6 +7,7 @@
 - [338 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
 - [169 多数元素](https://leetcode-cn.com/problems/majority-element/)
 - [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
+- [1486 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
 
 ## 数组
 
