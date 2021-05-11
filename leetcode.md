@@ -8,6 +8,7 @@
 - [169 多数元素](https://leetcode-cn.com/problems/majority-element/)
 - [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
 - [1486 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
+- [1734 解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)
 
 ## 数组
 
