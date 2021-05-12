@@ -9,6 +9,7 @@
 - [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
 - [1486 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
 - [1734 解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)
+- [1310 子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
 
 ## 数组
 
