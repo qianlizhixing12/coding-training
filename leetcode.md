@@ -214,6 +214,7 @@
 
 - [208 实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
 - [421 数组中两个数的最大异或值](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/)
+- [1707 与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)
 
 ## 动态规划
 
