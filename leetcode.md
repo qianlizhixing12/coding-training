@@ -13,6 +13,7 @@
 - [1442 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1738 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
 - [810 黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)
+- [461 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
 
 ## 数组
 
