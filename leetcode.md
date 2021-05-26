@@ -78,6 +78,7 @@
 - [946 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
 - [341 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
 - [295 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
+- [1190 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
 
 ## 滑动窗口
 
