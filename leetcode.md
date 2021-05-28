@@ -14,6 +14,7 @@
 - [1738 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
 - [810 黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)
 - [461 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+- [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
 
 ## 数组
 
