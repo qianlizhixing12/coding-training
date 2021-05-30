@@ -2,6 +2,7 @@
 
 - [268 丢失的数字](https://leetcode-cn.com/problems/missing-number/)
 - [231 2的幂](https://leetcode-cn.com/problems/power-of-two/)
+- [342 4的幂](https://leetcode-cn.com/problems/power-of-four/)
 - [191 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
 - [190 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
 - [338 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
