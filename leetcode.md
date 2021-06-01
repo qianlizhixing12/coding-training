@@ -46,6 +46,7 @@
 - [73 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/)
 - [5709 最大升序子数组和](https://leetcode-cn.com/problems/maximum-ascending-subarray-sum/)
 - [57 插入区间](https://leetcode-cn.com/problems/insert-interval/)
+- [1744 你能在你最喜欢的那天吃到你最喜欢的糖果吗](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
 
 ## 链表
 
