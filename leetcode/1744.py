@@ -1,5 +1,5 @@
 from typing import List
-from functools import accumulate
+from itertools import accumulate
 
 
 class Solution:
