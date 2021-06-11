@@ -247,6 +247,7 @@
 - [1269 停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)
 - [1035 不相交的线](https://leetcode-cn.com/problems/uncrossed-lines/)
 - [494 目标和](https://leetcode-cn.com/problems/target-sum/)
+- [279 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
 ## HashTable
 
