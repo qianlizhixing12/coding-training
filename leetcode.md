@@ -324,6 +324,7 @@
 - [74 搜索二维矩阵](https://leetcode-cn.com/problems/search-a-2d-matrix/)
 - [1011 在D天内送达包裹的能力](https://leetcode-cn.com/problems/capacity-to-ship-packages-within-d-days/)
 - [1482 制作m束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+- [374 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 
 ## 程序员面试金典
 - [面试题01.01.判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)
