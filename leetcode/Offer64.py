@@ -10,6 +10,3 @@ class Solution:
         result = 0
         helper(n)
         return result
-
-
-print(Solution().sumNums(3))
