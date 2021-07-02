@@ -250,6 +250,10 @@
 - [494 目标和](https://leetcode-cn.com/problems/target-sum/)
 - [279 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
+## 贪心算法
+
+- [1833 雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)
+
 ## HashTable
 
 - [1 两数之和](https://leetcode-cn.com/problems/two-sum/description/)
