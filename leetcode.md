@@ -16,6 +16,7 @@
 - [810 黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)
 - [461 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
 - [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
+- [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 
 ## 数组
 
