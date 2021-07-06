@@ -289,6 +289,7 @@
 - [220 存在重复元素III](https://leetcode-cn.com/problems/contains-duplicate-iii/)
 - [554 砖墙](https://leetcode-cn.com/problems/brick-wall/)
 - [692 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
+- [1418 点菜展示表](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)
 
 ## 排序
 
