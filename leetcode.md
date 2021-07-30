@@ -317,6 +317,7 @@
 - [1006 笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial/)
 - [263 丑数](https://leetcode-cn.com/problems/ugly-number/)
 - [633 平方数之和](https://leetcode-cn.com/problems/sum-of-square-numbers/)
+- [171 Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/)
 
 ## 二分查找
 
