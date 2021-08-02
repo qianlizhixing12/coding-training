@@ -251,6 +251,10 @@
 - [494 目标和](https://leetcode-cn.com/problems/target-sum/)
 - [279 完全平方数](https://leetcode-cn.com/problems/perfect-squares/)
 
+## 图
+
+
+
 ## 贪心算法
 
 - [1833 雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)
@@ -258,6 +262,7 @@
 ## HashTable
 
 - [1 两数之和](https://leetcode-cn.com/problems/two-sum/description/)
+- [1711 大餐计数](https://leetcode-cn.com/problems/count-good-meals/)
 - [242 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/description/)
 - [49 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/)
 - [771 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/)
