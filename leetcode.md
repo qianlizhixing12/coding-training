@@ -103,6 +103,7 @@
 
 - [19 删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [581 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
+- [611 有效三角形的个数](https://leetcode-cn.com/problems/valid-triangle-number/)
 
 ## 树 递归 分治 回溯
 
