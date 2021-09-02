@@ -13,6 +13,7 @@ venv/
 !leetcode/*.h
 !leetcode/*.c
 !leetcode/*.cpp
+!leetcode/*.cc
 !leetcode/*.md
 !leetcode/*.py
 /nowcoder/*
