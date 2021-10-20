@@ -265,6 +265,7 @@
 - [455 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
 - [605 种花问题](https://leetcode-cn.com/problems/can-place-flowers/)
 - [763 划分字母区间](https://leetcode-cn.com/problems/partition-labels/)
+- [860 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
 - [1833 雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)
 
 ## HashTable
