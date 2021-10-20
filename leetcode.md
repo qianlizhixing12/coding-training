@@ -239,7 +239,6 @@
 - [todo 未完成115 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences/)
 - [todo 未完成5 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)
 - [121 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/)
-- [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [1143 最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/)
 - [264 丑数II](https://leetcode-cn.com/problems/ugly-number-ii/)
 - [213 打家劫舍II](https://leetcode-cn.com/problems/house-robber-ii/)
@@ -432,3 +431,7 @@
 ## LCP
 
 - [LCP07.传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
+
+## 一题多解
+
+- [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
