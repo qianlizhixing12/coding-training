@@ -435,4 +435,5 @@
 
 ## 一题多解
 
+- [55 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
 - [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
