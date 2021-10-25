@@ -258,6 +258,9 @@
 
 ## 贪心算法
 
+- [45 跳跃游戏II](https://leetcode-cn.com/problems/jump-game-ii/)
+- [55 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
+- [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [135 分发糖果](https://leetcode-cn.com/problems/candy/)
 - [435 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)
 - [452 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
@@ -432,8 +435,3 @@
 ## LCP
 
 - [LCP07.传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
-
-## 一题多解
-
-- [55 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
-- [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
