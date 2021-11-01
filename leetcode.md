@@ -262,6 +262,7 @@
 - [55 跳跃游戏](https://leetcode-cn.com/problems/jump-game/)
 - [122 买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [135 分发糖果](https://leetcode-cn.com/problems/candy/)
+- [406 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height/)
 - [435 无重叠区间](https://leetcode-cn.com/problems/non-overlapping-intervals/)
 - [452 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 - [455 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
