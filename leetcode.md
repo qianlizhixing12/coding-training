@@ -267,6 +267,7 @@
 - [452 用最少数量的箭引爆气球](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 - [455 分发饼干](https://leetcode-cn.com/problems/assign-cookies/)
 - [605 种花问题](https://leetcode-cn.com/problems/can-place-flowers/)
+- [665 非递减数列](https://leetcode-cn.com/problems/non-decreasing-array/)
 - [763 划分字母区间](https://leetcode-cn.com/problems/partition-labels/)
 - [860 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change/)
 - [874 模拟行走机器人](https://leetcode-cn.com/problems/walking-robot-simulation/)
