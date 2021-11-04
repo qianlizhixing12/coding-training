@@ -437,4 +437,5 @@
 
 ## LCP
 
-- [LCP07.传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
+- [07 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
+- [39 无人机方阵](https://leetcode-cn.com/problems/0jQkd0/)
