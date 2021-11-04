@@ -353,6 +353,7 @@
 - [1482 制作m束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 - [374 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 - [275 H指数II](https://leetcode-cn.com/problems/h-index-ii/)
+- [367 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
 
 ## 程序员面试金典
 
