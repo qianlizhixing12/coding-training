@@ -45,7 +45,7 @@
             ]
         },
         {
-            "name": "python-study",
+            "name": "python-coding-training",
             "type": "python",
             "request": "launch",
             "program": "${file}",
