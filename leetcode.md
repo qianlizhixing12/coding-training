@@ -28,7 +28,6 @@
 - [27 移除元素](https://leetcode-cn.com/problems/remove-element/description/)
 - [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [66 加一](https://leetcode-cn.com/problems/plus-one/)
-- [167 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 - [15 三数之和](https://leetcode-cn.com/problems/3sum/)
 - [189 旋转数组](https://leetcode-cn.com/problems/rotate-array/)
 - [42 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
@@ -102,6 +101,7 @@
 ## 双指针
 
 - [19 删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
+- [167 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 - [581 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
 - [611 有效三角形的个数](https://leetcode-cn.com/problems/valid-triangle-number/)
 
