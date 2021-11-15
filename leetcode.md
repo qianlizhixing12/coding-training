@@ -53,8 +53,6 @@
 - [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 - [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
-- [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
-- [142 环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 - [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
 - [430 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
 - [23 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
@@ -101,6 +99,8 @@
 
 - [19 删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
 - [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+- [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+- [142 环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 - [167 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
 - [581 最短无序连续子数组](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
 - [611 有效三角形的个数](https://leetcode-cn.com/problems/valid-triangle-number/)
