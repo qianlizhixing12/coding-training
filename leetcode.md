@@ -49,6 +49,10 @@
 
 ## 链表
 
+### 链表遍历
+
+- [2 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+
 - [21 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
 - [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
@@ -107,7 +111,6 @@
 
 ## 树 递归 分治 回溯
 
-- [2 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
 - [897 递增顺序查找树](https://leetcode-cn.com/problems/increasing-order-search-tree/)
 - [938 二叉搜索树的范围和](https://leetcode-cn.com/problems/range-sum-of-bst/)
 - [1137 第N个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/)
