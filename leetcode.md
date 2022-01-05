@@ -18,6 +18,18 @@
 - [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
 - [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 
+## 排序
+
+- [912 排序数组](https://leetcode-cn.com/problems/sort-an-array/)
+
+- [1370 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)
+- [1528 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
+- [1122 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
+- [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
+- [todo 未完成493 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+- [146 LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
+- [179 最大数](https://leetcode-cn.com/problems/largest-number/)
+
 ## 数组
 
 - [283 移动零](https://leetcode-cn.com/problems/move-zeroes/)
@@ -312,16 +324,6 @@
 - [554 砖墙](https://leetcode-cn.com/problems/brick-wall/)
 - [692 前K个高频单词](https://leetcode-cn.com/problems/top-k-frequent-words/)
 - [1418 点菜展示表](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)
-
-## 排序
-
-- [1370 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)
-- [1528 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
-- [1122 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array/)
-- [56 合并区间](https://leetcode-cn.com/problems/merge-intervals/)
-- [todo 未完成493 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
-- [146 LRU缓存机制](https://leetcode-cn.com/problems/lru-cache/)
-- [179 最大数](https://leetcode-cn.com/problems/largest-number/)
 
 ## 字符串处理
 
