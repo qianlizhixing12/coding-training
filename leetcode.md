@@ -20,6 +20,7 @@
 
 ## 排序
 
+- [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [912 排序数组](https://leetcode-cn.com/problems/sort-an-array/)
 
 - [1370 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)
@@ -114,7 +115,6 @@
 ## 双指针
 
 - [19 删除链表的倒数第N个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
-- [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
 - [141 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 - [142 环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 - [167 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)
