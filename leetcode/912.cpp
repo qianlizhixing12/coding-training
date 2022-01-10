@@ -38,6 +38,43 @@ public:
     return nums;
   }
 
+  vector<int> sortArray_bubblesort(vector<int> &nums) {
+    // 冒泡排序
+    for (int i = nums.size() - 1; i >= 0; --i) {
+      bool flag = false;
+      for (int j = 0; j <= i - 1; ++j) {
+        if (nums[j] > nums[j + 1]) {
+          int tmp = nums[j];
+          nums[j] = nums[j + 1];
+          nums[j + 1] = tmp;
+          flag = true;
+        }
+      }
+      if (!flag)
+        break;
+    }
+    return nums;
+  }
+
+  vector<int> sortArray_selectsort(vector<int> &nums) {
+    // 选择排序
+    int n = nums.size();
+
+    for (int i = 0; i < n; ++i) {
+      int pos = i;
+      for (int j = i + 1; j < n; ++j) {
+        if (nums[pos] > nums[j]) {
+          pos = j;
+        }
+      }
+      int tmp = nums[i];
+      nums[i] = nums[pos];
+      nums[pos] = tmp;
+    }
+
+    return nums;
+  }
+
   void mergesort(vector<int> &nums, int left, int right) {
     if (left >= right) {
       return;
@@ -82,24 +119,6 @@ public:
 
     mergesort(nums, l, r);
 
-    return nums;
-  }
-
-  vector<int> sortArray_bubblesort(vector<int> &nums) {
-    // 冒泡排序
-    for (int i = nums.size() - 1; i >= 0; --i) {
-      bool flag = false;
-      for (int j = 0; j <= i - 1; ++j) {
-        if (nums[j] > nums[j + 1]) {
-          int tmp = nums[j];
-          nums[j] = nums[j + 1];
-          nums[j + 1] = tmp;
-          flag = true;
-        }
-      }
-      if (!flag)
-        break;
-    }
     return nums;
   }
 };
