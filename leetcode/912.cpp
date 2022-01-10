@@ -76,11 +76,30 @@ public:
   }
 
   vector<int> sortArray_mergesort(vector<int> &nums) {
+    // 归并排序
     int l = 0;
     int r = nums.size() - 1;
 
     mergesort(nums, l, r);
 
+    return nums;
+  }
+
+  vector<int> sortArray_bubblesort(vector<int> &nums) {
+    // 冒泡排序
+    for (int i = nums.size() - 1; i >= 0; --i) {
+      bool flag = false;
+      for (int j = 0; j <= i - 1; ++j) {
+        if (nums[j] > nums[j + 1]) {
+          int tmp = nums[j];
+          nums[j] = nums[j + 1];
+          nums[j + 1] = tmp;
+          flag = true;
+        }
+      }
+      if (!flag)
+        break;
+    }
     return nums;
   }
 };
