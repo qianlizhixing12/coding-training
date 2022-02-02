@@ -360,7 +360,14 @@
 - [275 H指数II](https://leetcode-cn.com/problems/h-index-ii/)
 - [367 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
 
+## LCP
+
+- [07 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
+- [39 无人机方阵](https://leetcode-cn.com/problems/0jQkd0/)
+
 # 刷题
+
+- [2000 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)
 
 ## 程序员面试金典
 
@@ -442,7 +449,3 @@
 - [剑指Offer68-I.二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
 - [剑指Offer68-II.二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
 
-## LCP
-
-- [07 传递信息](https://leetcode-cn.com/problems/chuan-di-xin-xi/)
-- [39 无人机方阵](https://leetcode-cn.com/problems/0jQkd0/)
