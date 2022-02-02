@@ -1,3 +1,5 @@
+# 基本题
+
 ## 位运算
 
 - [268 丢失的数字](https://leetcode-cn.com/problems/missing-number/)
@@ -62,12 +64,10 @@
 
 ## 链表
 
-### 链表遍历
+- [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
 - [2 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
-
 - [21 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-- [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 - [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 - [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
@@ -359,6 +359,8 @@
 - [374 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/)
 - [275 H指数II](https://leetcode-cn.com/problems/h-index-ii/)
 - [367 有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/)
+
+# 刷题
 
 ## 程序员面试金典
 
