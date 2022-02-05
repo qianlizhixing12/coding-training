@@ -1,4 +1,7 @@
 # Definition for singly-linked list.
+from typing import List
+
+
 class ListNode:
 
     def __init__(self, val=0, next=None):
@@ -9,32 +12,24 @@ class ListNode:
 class Solution:
 
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
-        cur = result = ListNode()
-        tmp = 0
+        sentry = ListNode()
+        head = sentry
+        value = 0
 
-        while l1 and l2:
-            cur.next = ListNode(l1.val + l2.val + tmp)
-            cur = cur.next
-            tmp = cur.val // 10
-            cur.val = cur.val % 10
-            l1 = l1.next
-            l2 = l2.next
+        while l1 is not None or l2 is not None:
+            if l1 is not None:
+                value += l1.val
+                l1 = l1.next
 
-        while l1:
-            cur.next = ListNode(l1.val + tmp)
-            cur = cur.next
-            tmp = cur.val // 10
-            cur.val = cur.val % 10
-            l1 = l1.next
+            if l2 is not None:
+                value += l2.val
+                l2 = l2.next
 
-        while l2:
-            cur.next = ListNode(l2.val + tmp)
-            cur = cur.next
-            tmp = cur.val // 10
-            cur.val = cur.val % 10
-            l2 = l2.next
+            head.next = ListNode(value % 10)
+            head = head.next
+            value = value // 10
 
-        if tmp == 1:
-            cur.next = ListNode(tmp)
+        if value != 0:
+            head.next = ListNode(value % 10)
 
-        return result.next
+        return sentry.next
