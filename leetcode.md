@@ -64,6 +64,8 @@
 
 ## 链表
 
+- 链表最基本操作：遍历，反转
+
 - [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 - [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
 - [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
