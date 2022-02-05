@@ -9,18 +9,13 @@ class ListNode:
 class Solution:
 
     def removeElements(self, head: ListNode, val: int) -> ListNode:
-        while head and head.val == val:
-            head = head.next
+        sentry = ListNode(0, head)
+        head = sentry
 
-        if not head:
-            return head
-
-        res = head
-
-        while head.next:
-            if head.next.val == val:
-                head.next = head.next.next
-            else:
+        while head.next is not None:
+            if head.next.val != val:
                 head = head.next
+            else:
+                head.next = head.next.next
 
-        return res
+        return sentry.next
