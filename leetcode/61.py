@@ -11,6 +11,7 @@ class Solution:
     def rotateRight(self, head: ListNode, k: int) -> ListNode:
         if k == 0 or head == None or head.next == None:
             return head
+
         n = 1
         cur = head
         while cur.next != None:
@@ -19,6 +20,7 @@ class Solution:
         k = n - k % n
         if k == n:
             return head
+
         cur.next = head
         while k:
             cur = cur.next
