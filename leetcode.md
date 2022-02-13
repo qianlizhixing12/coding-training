@@ -11,8 +11,8 @@
 - [461 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
 - [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
 - [1486 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
-
 - [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
+
 - [1734 解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)
 - [1310 子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
 - [1442 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
