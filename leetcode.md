@@ -9,6 +9,7 @@
 - [190 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
 - [338 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
 - [461 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+- [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
 
 - [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
 - [1486 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
@@ -17,7 +18,6 @@
 - [1442 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1738 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
 - [810 黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)
-- [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
 - [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 
 ## 链表
