@@ -18,7 +18,6 @@
 - [1442 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1738 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
 - [810 黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)
-- [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 
 ## 链表
 
@@ -370,6 +369,7 @@
 # 刷题
 
 - [169 多数元素](https://leetcode-cn.com/problems/majority-element/)
+- [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 - [1414 和为K的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 - [2000 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)
 
