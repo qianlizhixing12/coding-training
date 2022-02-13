@@ -20,6 +20,24 @@
 - [477 汉明距离总和](https://leetcode-cn.com/problems/total-hamming-distance/)
 - [645 错误的集合](https://leetcode-cn.com/problems/set-mismatch/)
 
+## 链表
+
+- 链表最基本操作：遍历，反转
+
+- [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+- [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+- [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+- [430 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
+
+- [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+- [21 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+- [23 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+- [2 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
+- [203 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+- [83 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+- [82 删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+- [61 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+
 ## 排序
 
 - [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
@@ -61,24 +79,6 @@
 - [5709 最大升序子数组和](https://leetcode-cn.com/problems/maximum-ascending-subarray-sum/)
 - [57 插入区间](https://leetcode-cn.com/problems/insert-interval/)
 - [1744 你能在你最喜欢的那天吃到你最喜欢的糖果吗](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
-
-## 链表
-
-- 链表最基本操作：遍历，反转
-
-- [206 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
-- [92 反转链表II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
-- [25 K个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
-- [430 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
-
-- [24 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
-- [21 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-- [23 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
-- [2 两数相加](https://leetcode-cn.com/problems/add-two-numbers/)
-- [203 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
-- [83 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
-- [82 删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
-- [61 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 
 ## 栈 队列
 
