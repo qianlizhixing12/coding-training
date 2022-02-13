@@ -8,7 +8,7 @@
 - [191 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/)
 - [190 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/)
 - [338 比特位计数](https://leetcode-cn.com/problems/counting-bits/)
-- [169 多数元素](https://leetcode-cn.com/problems/majority-element/)
+
 - [1720 解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
 - [1486 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
 - [1734 解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)
@@ -369,6 +369,7 @@
 
 # 刷题
 
+- [169 多数元素](https://leetcode-cn.com/problems/majority-element/)
 - [1414 和为K的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 - [2000 反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)
 
