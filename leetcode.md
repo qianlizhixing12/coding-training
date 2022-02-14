@@ -40,6 +40,7 @@
 ## 栈 队列
 
 - [20 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+- [1047 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
 
 - [641 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
 - [155 最小栈](https://leetcode-cn.com/problems/min-stack/)
@@ -49,7 +50,6 @@
 - [503 下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
 - [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
 - [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
-- [1047 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
 - [150 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
 - [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
 - [227 基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)
