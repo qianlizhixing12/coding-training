@@ -37,6 +37,28 @@
 - [82 删除排序链表中的重复元素II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
 - [61 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
 
+## 栈 队列
+
+- [20 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
+
+- [641 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
+- [155 最小栈](https://leetcode-cn.com/problems/min-stack/)
+- [232 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+- [739 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
+- [496 下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/)
+- [503 下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
+- [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+- [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
+- [1047 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
+- [150 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
+- [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
+- [227 基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)
+- [331 验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/)
+- [946 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
+- [341 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
+- [295 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
+- [1190 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
+
 ## 排序
 
 - [88 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
@@ -78,27 +100,6 @@
 - [5709 最大升序子数组和](https://leetcode-cn.com/problems/maximum-ascending-subarray-sum/)
 - [57 插入区间](https://leetcode-cn.com/problems/insert-interval/)
 - [1744 你能在你最喜欢的那天吃到你最喜欢的糖果吗](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
-
-## 栈 队列
-
-- [20 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)
-- [641 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
-- [155 最小栈](https://leetcode-cn.com/problems/min-stack/)
-- [232 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
-- [739 每日温度](https://leetcode-cn.com/problems/daily-temperatures/)
-- [496 下一个更大元素I](https://leetcode-cn.com/problems/next-greater-element-i/)
-- [503 下一个更大元素II](https://leetcode-cn.com/problems/next-greater-element-ii/)
-- [84 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
-- [239 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)
-- [1047 删除字符串中的所有相邻重复项](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/)
-- [150 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)
-- [224 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)
-- [227 基本计算器II](https://leetcode-cn.com/problems/basic-calculator-ii/)
-- [331 验证二叉树的前序序列化](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree/)
-- [946 验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/)
-- [341 扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)
-- [295 数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/)
-- [1190 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
 
 ## 滑动窗口
 
