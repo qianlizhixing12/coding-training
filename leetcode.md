@@ -16,7 +16,6 @@
 - [1310 子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
 - [1442 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 - [1738 找出第K大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
-
 - [810 黑板异或游戏](https://leetcode-cn.com/problems/chalkboard-xor-game/)
 
 ## 链表
