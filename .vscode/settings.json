@@ -1,10 +1,11 @@
 {
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.editor.closeOnFileDelete": true,
   "editor.codeLensFontFamily": "'Courier New'",
   "editor.inlayHints.fontFamily": "'Courier New', monospace",
   "editor.fontFamily": "'Courier New', monospace",
+  "editor.fontSize": 16,
   "editor.lineHeight": 24,
   "editor.detectIndentation": false,
   "editor.tabSize": 2,
@@ -42,7 +43,6 @@
   "python.testing.pytestArgs": [
     "."
   ],
-  "better-comments.highlightPlainText": false,
   "git.ignoreMissingGitWarning": true,
   "git.ignoreLegacyWarning": true
 }
