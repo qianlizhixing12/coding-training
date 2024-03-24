@@ -25,26 +25,6 @@
       ]
     },
     {
-      "name": "cpp-coding-training",
-      "type": "cppdbg",
-      "request": "launch",
-      "program": "${fileDirname}/${fileBasenameNoExtension}",
-      "args": [],
-      "stopAtEntry": false,
-      "cwd": "${fileDirname}",
-      "environment": [],
-      "externalConsole": false,
-      "MIMode": "gdb",
-      "preLaunchTask": "cpp-compile",
-      "setupCommands": [
-        {
-          "description": "coding-training",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
-    },
-    {
       "name": "python-coding-training",
       "type": "python",
       "request": "launch",
