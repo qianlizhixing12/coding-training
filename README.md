@@ -1,10 +1,10 @@
 ### coding-training-website
 
 - 编程训练
-- c c++解题
+- c python解题
 - 使用单元测试，而不是main函数
-- web.md 题目及链接
-- web/num.c(num.cpp) 题解源码及思路描述
+- *.md 题目及链接
+- */num.c题解源码及思路描述
 
 ### web
 
