@@ -10,7 +10,6 @@
 
 - [leetcode](https://leetcode-cn.com/)
 - [nowcoder](https://www.nowcoder.com/)
-- [projecteuler](https://projecteuler.net/)
 
 ### note
 

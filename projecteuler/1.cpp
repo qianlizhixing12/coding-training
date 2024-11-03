@@ -1,16 +1,5 @@
-#include <iostream>
-
-int getSum(int x, int y, int range);
-int getSum_(int x, int y, int range);
-int getSum(int x, int range);
-
-int main() {
-  std::cout << getSum(3, 5, 1000) << std::endl;
-  std::cout << getSum_(3, 5, 1000) << std::endl;
-  std::cout << getSum(3, 1000) + getSum(5, 1000) - getSum(15, 1000)
-            << std::endl;
-  return 0;
-}
+#include <stdio.h>
+#include <stdlib.h>
 
 int getSum(int x, int y, int range) {
   int sum = 0;
@@ -34,6 +23,8 @@ int getSum_(int x, int y, int range) {
   }
   return sum;
 }
+
+// TEST_CASE_TRUE(c == 5);
 
 /*
  * 数学公式 x+x*2+x*3+...+x*n=x(1+2+3+...+n)=x*n*(n+1)/2

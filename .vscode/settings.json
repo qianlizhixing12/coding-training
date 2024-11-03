@@ -44,5 +44,18 @@
     "."
   ],
   "git.ignoreMissingGitWarning": true,
-  "git.ignoreLegacyWarning": true
+  "git.ignoreLegacyWarning": true,
+  "C_Cpp.errorSquiggles": "disabled",
+  "files.associations": {
+    "typeinfo": "c",
+    "optional": "cpp",
+    "system_error": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "test.h": "c",
+    "ctype.h": "c"
+  }
 }
