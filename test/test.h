@@ -35,6 +35,25 @@ typedef void(test_fun)(void);
                                                                                \
   } while (0)
 
+#define TEST_CASE_ARRAY_INT_EQUAL(arr1, arr1Size, arr2, arr2Size)              \
+  do {                                                                         \
+    if (arr1Size != arr2Size) {                                                \
+      test_unit_case(__LINE__, false);                                         \
+      break;                                                                   \
+    }                                                                          \
+    if (arr1 == NULL || arr2 == NULL) {                                        \
+      test_unit_case(__LINE__, false);                                         \
+      break;                                                                   \
+    }                                                                          \
+    for (int i = 0; i < arr1Size; ++i) {                                       \
+      if (arr1[i] != arr2[i]) {                                                \
+        test_unit_case(__LINE__, false);                                       \
+        break;                                                                 \
+      }                                                                        \
+    }                                                                          \
+    test_unit_case(__LINE__, true);                                            \
+  } while (0)
+
 extern void test_unit_add(const char *, test_fun *);
 extern void test_unit_run(const char *);
 extern void test_unit_case(int, bool);

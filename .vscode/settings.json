@@ -56,6 +56,10 @@
     "type_traits": "cpp",
     "utility": "cpp",
     "test.h": "c",
-    "ctype.h": "c"
+    "ctype.h": "c",
+    "leetcode.h": "c",
+    "stdlib.h": "c",
+    "string.h": "c",
+    "stdio.h": "c"
   }
 }
