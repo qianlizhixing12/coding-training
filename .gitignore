@@ -3,9 +3,6 @@
 *.obj
 *.exe
 # 跟踪文件
-!.vscode/
-.idea/
-.venv/
 !.gitignore
 !*.md
 # 忽略所有除.h .c .cpp .md所有文件
