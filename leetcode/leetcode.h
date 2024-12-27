@@ -9,7 +9,14 @@
 extern "C" {
 #endif
 
+struct ListNode {
+  int val;
+  struct ListNode *next;
+};
+
 extern int *twoSum(int *nums, int numsSize, int target, int *returnSize);
+
+extern struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2);
 
 #ifdef __cplusplus
 }

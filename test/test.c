@@ -1,99 +1,337 @@
 #include "test.h"
 #include <ctype.h>
+#include <pthread.h>
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-typedef struct Unit {
+typedef struct Case {
   char *name;
-  test_fun *fun;
-  struct Unit *next;
-  struct Unit *prev;
-} TestUnit;
-
-typedef struct {
-  char *select;
   uint run;
   uint pass;
   uint fail;
-} TestProject;
+  test_fun *fun;
+  struct Case *next;
+} TestCase;
 
-static TestUnit g_unit = {NULL, NULL, &g_unit, &g_unit};
-static TestProject g_project = {NULL, 0, 0, 0};
+typedef struct Suite {
+  char *name;
+  struct Suite *next;
+  struct Case *cases;
+} TestSuite;
 
-void test_unit_add(const char *name, test_fun *fun) {
-  if (name == NULL || name[0] == '\0' || fun == NULL) {
-    printf("param is invialid\n");
-    return;
-  }
+static pthread_mutex_t g_lock = PTHREAD_MUTEX_INITIALIZER;
+static TestSuite *g_suite = NULL;
 
-  TestUnit *node = malloc(sizeof(TestUnit));
-  if (node == NULL) {
-    printf("unit malloc fail\n");
-    return;
-  }
+static void test_suite_free() {
+  TestSuite *tmp = g_suite;
+  while (tmp != NULL) {
+    TestCase *node = tmp->cases;
+    while (node != NULL) {
+      TestCase *next = node->next;
+      free(node->name);
+      free(node);
+      node = next;
+    }
 
-  uint len = strlen(name);
-  node->name = malloc(len + 1);
-  if (node->name == NULL) {
-    printf("name malloc fail\n");
-    free(node);
-    return;
-  }
-
-  if (memcpy(node->name, name, len) == NULL) {
-    printf("unit copy fail\n");
-    free(node->name);
-    free(node);
-    return;
-  }
-
-  node->fun = fun;
-  node->next = &g_unit;
-  node->prev = g_unit.prev;
-
-  g_unit.prev->next = node;
-  g_unit.prev = node;
-}
-
-static void test_unit_free() {
-  TestUnit *tmp = g_unit.next;
-  while (tmp != &g_unit) {
-    TestUnit *next = tmp->next;
+    TestSuite *temp = tmp->next;
     free(tmp->name);
     free(tmp);
-    tmp = next;
+    tmp = temp;
+  }
+
+  g_suite = NULL;
+}
+
+static uint test_suite_append(const char *testsuite, TestSuite *suite) {
+  if (g_suite == NULL) {
+    g_suite = suite;
+    return TEST_CASE_OK;
+  }
+
+  if (strcmp(testsuite, g_suite->name) == 0) {
+    return TEST_CASE_USR_REPEAT_CREATE;
+  }
+
+  TestSuite *tmp = g_suite;
+  while (tmp->next != NULL) {
+    if (strcmp(testsuite, tmp->next->name) == 0) {
+      return TEST_CASE_USR_REPEAT_CREATE;
+    }
+
+    tmp = tmp->next;
+  }
+
+  tmp->next = suite;
+
+  return TEST_CASE_OK;
+}
+
+static uint test_suite_create(const char *testsuite, TestSuite **suite) {
+  TestSuite *node = malloc(sizeof(TestSuite));
+  if (node == NULL) {
+    return TEST_CASE_SYS_MEM_ALLOC;
+  }
+
+  int len = strlen(testsuite);
+  node->name = malloc(len + 1);
+  if (node->name == NULL) {
+    free(node);
+    return TEST_CASE_SYS_MEM_ALLOC;
+  }
+
+  if (memcpy(node->name, testsuite, len + 1) == NULL) {
+    free(node->name);
+    free(node);
+    return TEST_CASE_SYS_MEM_COPY;
+  }
+
+  node->next = NULL;
+  node->cases = NULL;
+  *suite = node;
+  return TEST_CASE_OK;
+}
+
+static uint test_suite_find(const char *testsuite, TestSuite **suite) {
+  TestSuite *tmp = g_suite;
+  while (tmp != NULL) {
+    if (strcmp(testsuite, tmp->name) == 0) {
+      *suite = tmp;
+      return TEST_CASE_OK;
+    }
+
+    tmp = tmp->next;
+  }
+
+  return TEST_CASE_USR_NOT_FIND;
+}
+
+static uint test_case_append(TestSuite *suite, const char *testcase,
+                             TestCase *cases) {
+  if (suite == NULL) {
+    return TEST_CASE_USR_NOT_FIND;
+  }
+
+  if (suite->cases == NULL) {
+    suite->cases = cases;
+    return TEST_CASE_OK;
+  }
+
+  if (strcmp(testcase, suite->cases->name) == 0) {
+    return TEST_CASE_USR_REPEAT_CREATE;
+  }
+
+  TestCase *tmp = suite->cases;
+  while (tmp->next != NULL) {
+    if (strcmp(testcase, tmp->next->name) == 0) {
+      return TEST_CASE_USR_REPEAT_CREATE;
+    }
+
+    tmp = tmp->next;
+  }
+
+  tmp->next = cases;
+
+  return TEST_CASE_OK;
+}
+
+static uint test_case_create(const char *testcase, test_fun *testfun,
+                             TestCase **cases) {
+  TestCase *node = malloc(sizeof(TestCase));
+  if (node == NULL) {
+    return TEST_CASE_SYS_MEM_ALLOC;
+  }
+
+  uint len = strlen(testcase);
+  node->name = malloc(len + 1);
+  if (node->name == NULL) {
+    free(node);
+    return TEST_CASE_SYS_MEM_ALLOC;
+  }
+
+  if (memcpy(node->name, testcase, len + 1) == NULL) {
+    free(node->name);
+    free(node);
+    return TEST_CASE_SYS_MEM_COPY;
+  }
+
+  node->next = NULL;
+  node->run = node->pass = node->fail = 0;
+  node->fun = testfun;
+  *cases = node;
+
+  return TEST_CASE_OK;
+}
+
+static uint test_case_find(TestSuite *suite, const char *testcase,
+                           TestCase **cases) {
+  if (suite == NULL) {
+    return TEST_CASE_USR_NOT_FIND;
+  }
+
+  if (suite->cases == NULL) {
+    return TEST_CASE_USR_NOT_FIND;
+  }
+
+  TestCase *tmp = suite->cases;
+  while (tmp != NULL) {
+    if (strcmp(testcase, tmp->name) == 0) {
+      *cases = tmp;
+      return TEST_CASE_OK;
+    }
+
+    tmp = tmp->next;
+  }
+
+  return TEST_CASE_USR_NOT_FIND;
+}
+
+static uint test_case_check(const char *testsuite, const char *testcase,
+                            test_fun *testfun) {
+  if (testsuite == NULL || testsuite[0] == '\0') {
+    return TEST_CASE_USR_PARAM_CHECK;
+  }
+
+  if (testcase == NULL || testcase[0] == '\0') {
+    return TEST_CASE_USR_PARAM_CHECK;
+  }
+
+  if (testfun == NULL) {
+    return TEST_CASE_USR_PARAM_CHECK;
+  }
+
+  return TEST_CASE_OK;
+}
+
+void test_case_add(const char *testsuite, const char *testcase,
+                   test_fun *testfun) {
+  (void)pthread_mutex_lock(&g_lock);
+
+  uint ret = test_case_check(testsuite, testcase, testfun);
+  if (ret != TEST_CASE_OK) {
+    goto err;
+  }
+
+  TestSuite *suite = NULL;
+  ret = test_suite_find(testsuite, &suite);
+  if (ret == TEST_CASE_USR_NOT_FIND) {
+    ret = test_suite_create(testsuite, &suite);
+    if (ret != TEST_CASE_OK) {
+      goto err;
+    }
+    ret = test_suite_append(testsuite, suite);
+    if (ret != TEST_CASE_OK) {
+      goto err;
+    }
+  } else if (ret != TEST_CASE_OK) {
+    goto err;
+  }
+
+  TestCase *cases = NULL;
+  ret = test_case_find(suite, testcase, &cases);
+  if (ret == TEST_CASE_USR_NOT_FIND) {
+    ret = test_case_create(testcase, testfun, &cases);
+    if (ret != TEST_CASE_OK) {
+      goto err;
+    }
+    ret = test_case_append(suite, testcase, cases);
+    if (ret != TEST_CASE_OK) {
+      goto err;
+    }
+  } else if (ret == TEST_CASE_OK) {
+    ret = TEST_CASE_USR_REPEAT_CREATE;
+    goto err;
+  }
+
+  (void)pthread_mutex_unlock(&g_lock);
+  return;
+
+err:
+  test_suite_free();
+  (void)pthread_mutex_unlock(&g_lock);
+  exit(ret);
+  return;
+}
+
+static void test_cases_clear(TestSuite *suite) {
+  TestCase *node = suite->cases;
+  while (node != NULL) {
+    node->run = node->pass = node->fail = 0;
+    node = node->next;
   }
 }
 
-void test_unit_case(int line, bool result) {
-  ++g_project.run;
-  if (result) {
-    ++g_project.pass;
+static void test_cases_run(TestSuite *suite) {
+  TestCase *node = suite->cases;
+  while (node != NULL) {
+    ((test_fun *)(node->fun))();
+    node = node->next;
+  }
+}
+
+static void test_suite_run() {
+  TestSuite *tmp = g_suite;
+  while (tmp != NULL) {
+    test_cases_run(tmp);
+    tmp = tmp->next;
+  }
+}
+
+static void test_case_result(TestSuite *suite, TestCase *cases) {
+  char suite_case[40] = {0};
+
+  printf("result:");
+  if (suite != NULL) {
+    printf("\n  suite.case                               run     pass    fail");
+    if (cases != NULL) {
+      sprintf(suite_case, "%s.%s%c", suite->name, cases->name, '\0');
+      printf("\n  %-40s %-4d    %-4d    %-4d", suite_case, cases->run,
+             cases->pass, cases->fail);
+    } else {
+      TestCase *node = suite->cases;
+      while (node != NULL) {
+        sprintf(suite_case, "%s.%s%c", suite->name, node->name, '\0');
+        printf("\n  %-40s %-4d    %-4d    %-4d", suite_case, node->run,
+               node->pass, node->fail);
+        node = node->next;
+      }
+    }
   } else {
-    ++g_project.fail;
+    TestSuite *tmp = g_suite;
+    while (tmp != NULL) {
+      printf(
+          "\n  suite.case                               run     pass    fail");
+      TestCase *node = tmp->cases;
+      while (node != NULL) {
+        sprintf(suite_case, "%s.%s%c", tmp->name, node->name, '\0');
+        printf("\n  %-40s %-4d    %-4d    %-4d", suite_case, node->run,
+               node->pass, node->fail);
+        node = node->next;
+      }
+      tmp = tmp->next;
+    }
   }
 }
 
-static bool test_unit_select(const char *project) {
+static bool test_suite_select() {
   printf("\n-------------------------");
-  printf("\nproject %15s test list:", project);
+  printf("\nsuite list:");
 
-  TestUnit *tmp = g_unit.next;
+  TestSuite *tmp = g_suite;
   uint num = 1;
-  while (tmp != &g_unit) {
-    printf("\n%d %s", num, tmp->name);
+  while (tmp != NULL) {
+    printf("\n  %d: %s", num, tmp->name);
+    test_cases_clear(tmp);
     tmp = tmp->next;
     ++num;
   }
+  printf("\n  a: all");
+  printf("\n  q: quit");
 
-  printf("\nq quit");
   uint select = 0;
-
   do {
-    printf("\nselect num:");
-
+    printf("\nsuite select:");
     char input[4] = {0};
     if (scanf("%s", input) != 1) {
       printf("    invialid select");
@@ -102,6 +340,12 @@ static bool test_unit_select(const char *project) {
 
     if (input[0] == 'q' && input[1] == '\0') {
       return false;
+    }
+
+    if (input[0] == 'a' && input[1] == '\0') {
+      test_suite_run();
+      test_case_result(NULL, NULL);
+      return true;
     }
 
     select = atoi(input);
@@ -114,47 +358,90 @@ static bool test_unit_select(const char *project) {
   } while (1);
 
   --select;
-  tmp = g_unit.next;
-  while (tmp != &g_unit && select != 0) {
+  tmp = g_suite;
+  while (tmp != NULL && select != 0) {
     tmp = tmp->next;
     --select;
   }
-  g_project.select = tmp->name;
+
+  printf("suite %s case list:", tmp->name);
+
+  TestCase *temp = tmp->cases;
+  uint cnum = 1;
+  while (temp != NULL) {
+    printf("\n  %d: %s", cnum, temp->name);
+    temp = temp->next;
+    ++cnum;
+  }
+  printf("\n  a: all");
+  printf("\n  r: return");
+
+  uint cselect = 0;
+  do {
+    printf("\ncase select:");
+    char input[4] = {0};
+    if (scanf("%s", input) != 1) {
+      printf("    invialid select");
+      continue;
+    }
+
+    if (input[0] == 'r' && input[1] == '\0') {
+      return true;
+    }
+
+    if (input[0] == 'a' && input[1] == '\0') {
+      test_cases_run(tmp);
+      test_case_result(tmp, NULL);
+      return true;
+    }
+
+    cselect = atoi(input);
+    if (cselect == 0 || cselect >= cnum) {
+      printf("    invialid select");
+      continue;
+    }
+
+    break;
+  } while (1);
+
+  --cselect;
+  temp = tmp->cases;
+  while (temp != NULL && cselect != 0) {
+    temp = temp->next;
+    --cselect;
+  }
+  ((test_fun *)(temp->fun))();
+  test_case_result(tmp, temp);
 
   return true;
 }
 
-static void test_unit_run_select() {
-  if (g_project.select == NULL) {
-    return;
+void test_case_run() {
+  (void)pthread_mutex_lock(&g_lock);
+
+  while (test_suite_select()) {
   }
 
-  g_project.run = g_project.pass = g_project.fail = 0;
+  test_suite_free();
+  (void)pthread_mutex_unlock(&g_lock);
+}
 
-  TestUnit *tmp = g_unit.next;
-  while (tmp != &g_unit) {
-    if (strcmp(g_project.select, tmp->name) == 0) {
-      ((test_fun *)(tmp->fun))();
-      return;
+void test_case_assert(const char *testcase, int line, bool result) {
+  TestSuite *tmp = g_suite;
+  while (tmp != NULL) {
+    TestCase *cases = NULL;
+    uint ret = test_case_find(tmp, testcase, &cases);
+    if (ret == TEST_CASE_OK) {
+      ++cases->run;
+      if (result) {
+        ++cases->pass;
+      } else {
+        ++cases->fail;
+      }
     }
 
     tmp = tmp->next;
   }
-}
-
-static void test_unit_result(const char *project) {
-  printf("\n%s result:", g_project.select);
-  printf("\nrun     pass    fail");
-  printf("\n%4d    %4d    %4d", g_project.run, g_project.pass, g_project.fail);
-}
-
-void test_unit_run(const char *project) {
-  while (test_unit_select(project)) {
-    test_unit_run_select();
-    test_unit_result(project);
-  }
-
-  test_unit_free();
 }
 
 #ifdef __cplusplus

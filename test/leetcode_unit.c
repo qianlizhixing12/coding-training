@@ -27,8 +27,9 @@ static void llt_twoSum(void) {
   free(result2);
 }
 
-void leetcode(void) {
-  TEST_UNIT_ADD(llt_twoSum);
+static void llt_addTwoNumbers(void) {}
 
-  TEST_UNIT_RUN();
+void leetcode(void) {
+  TEST_CASE_ADD(llt_twoSum);
+  TEST_CASE_ADD(llt_addTwoNumbers);
 }

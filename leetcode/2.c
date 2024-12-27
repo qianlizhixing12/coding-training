@@ -1,13 +1,9 @@
+#include "leetcode.h"
 #include <stdlib.h>
 
-struct ListNode {
-  int val;
-  struct ListNode* next;
-};
-
-struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2) {
   struct ListNode sentry = {0, NULL};
-  struct ListNode* head = &sentry;
+  struct ListNode *cur = &sentry;
 
   // 进位标志
   int value = 0;
@@ -23,18 +19,23 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     }
 
     // 不破坏l1 l2结构
-    head->next = malloc(sizeof(struct ListNode));
-    head = head->next;
-    head->val = value % 10;
-    head->next = NULL;
-    value = value / 10;
+    cur->next = malloc(sizeof(struct ListNode));
+    cur = cur->next;
+    cur->next = NULL;
+    if (value >= 10) {
+      cur->val = value - 10;
+      value = 1;
+    } else {
+      cur->val = value;
+      value = 0;
+    }
   }
 
   if (value != 0) {
-    head->next = malloc(sizeof(struct ListNode));
-    head = head->next;
-    head->val = value % 10;
-    head->next = NULL;
+    cur->next = malloc(sizeof(struct ListNode));
+    cur = cur->next;
+    cur->next = NULL;
+    cur->val = value;
   }
 
   return sentry.next;

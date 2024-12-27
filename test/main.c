@@ -18,5 +18,7 @@
 int main(int argc, char **argv) {
   leetcode();
 
+  test_case_run();
+
   return 0;
 }
