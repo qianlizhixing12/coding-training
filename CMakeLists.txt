@@ -11,4 +11,5 @@ set(CMAKE_C_COMPILER "/usr/bin/gcc")
 set(CMAKE_C_FLAGS "-g -Wall -Werror")
 
 add_subdirectory(leetcode)
+add_subdirectory(projecteuler)
 add_subdirectory(test)

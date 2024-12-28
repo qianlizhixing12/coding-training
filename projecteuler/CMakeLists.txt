@@ -1,0 +1,9 @@
+set(module projecteuler)
+
+add_library(${module} OBJECT
+  1.c
+)
+
+# target_include_directories(${module} PUBLIC ${PROJECT_SOURCE_DIR}/uthash/src)
+
+install(TARGETS ${module} ARCHIVE DESTINATION lib)

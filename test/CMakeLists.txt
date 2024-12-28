@@ -3,12 +3,15 @@ set(module llt_test)
 add_executable(${module}
   main.c
   test.c
-  leetcode_unit.c
-  $<TARGET_OBJECTS:leetcode> 
+  leetcode.c
+  projecteuler.c
+  $<TARGET_OBJECTS:leetcode>
+  $<TARGET_OBJECTS:projecteuler>
 )
 
 target_include_directories(${module} PUBLIC
   ${PROJECT_SOURCE_DIR}/leetcode
+  ${PROJECT_SOURCE_DIR}/projecteuler
   ${PROJECT_SOURCE_DIR}/test
 )
 

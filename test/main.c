@@ -1,4 +1,3 @@
-#include "main.h"
 #include "test.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -15,8 +14,12 @@
 // - [NC45
 // 实现二叉树先序，中序和后序遍历](https://www.nowcoder.com/practice/a9fec6c46a684ad5a3abd4e365a9d362)
 
+extern void leetcode(void);
+extern void projecteuler(void);
+
 int main(int argc, char **argv) {
   leetcode();
+  projecteuler();
 
   test_case_run();
 

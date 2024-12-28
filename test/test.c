@@ -279,11 +279,11 @@ static void test_suite_run() {
 }
 
 static void test_case_result(TestSuite *suite, TestCase *cases) {
-  char suite_case[40] = {0};
-
   printf("result:");
+  printf("\n  suite.case                               run     pass    fail");
+
+  char suite_case[40] = {0};
   if (suite != NULL) {
-    printf("\n  suite.case                               run     pass    fail");
     if (cases != NULL) {
       sprintf(suite_case, "%s.%s%c", suite->name, cases->name, '\0');
       printf("\n  %-40s %-4d    %-4d    %-4d", suite_case, cases->run,
@@ -300,8 +300,6 @@ static void test_case_result(TestSuite *suite, TestCase *cases) {
   } else {
     TestSuite *tmp = g_suite;
     while (tmp != NULL) {
-      printf(
-          "\n  suite.case                               run     pass    fail");
       TestCase *node = tmp->cases;
       while (node != NULL) {
         sprintf(suite_case, "%s.%s%c", tmp->name, node->name, '\0');

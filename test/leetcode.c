@@ -1,4 +1,4 @@
-#include "main.h"
+#include "leetcode.h"
 #include "test.h"
 
 struct ListNode *arrToList(int *arr, uint len) {
