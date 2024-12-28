@@ -60,6 +60,30 @@ extern void test_case_assert(const char *, int, bool);
     test_case_assert(__FUNCTION__, __LINE__, true);                            \
   } while (0)
 
+#define TEST_CASE_LIST_INT_EQUAL(list1, list2)                                 \
+  do {                                                                         \
+    do {                                                                       \
+      if (list1 == NULL && list2 == NULL) {                                    \
+        test_case_assert(__FUNCTION__, __LINE__, true);                        \
+        break;                                                                 \
+      }                                                                        \
+      if (list1 == NULL && list2 != NULL) {                                    \
+        test_case_assert(__FUNCTION__, __LINE__, false);                       \
+        break;                                                                 \
+      }                                                                        \
+      if (list1 != NULL && list2 == NULL) {                                    \
+        test_case_assert(__FUNCTION__, __LINE__, false);                       \
+        break;                                                                 \
+      }                                                                        \
+      if (list1->val != list2->val) {                                          \
+        test_case_assert(__FUNCTION__, __LINE__, false);                       \
+        break;                                                                 \
+      }                                                                        \
+      list1 = list1->next;                                                     \
+      list2 = list2->next;                                                     \
+    } while (1);                                                               \
+  } while (0)
+
 #ifdef __cplusplus
 }
 #endif
