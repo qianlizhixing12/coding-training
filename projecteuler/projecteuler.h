@@ -9,7 +9,8 @@
 extern "C" {
 #endif
 
-extern int getSum(int x, int y, int range);
+extern int getMultiplesSum(int x, int y, int range);
+extern long long int getEvenFibonacciSum(long long int range);
 
 #ifdef __cplusplus
 }

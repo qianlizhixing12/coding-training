@@ -6,7 +6,7 @@
  * 3倍数+5倍数-15倍数
  * 时间复杂度O(1)
  */
-int getSum(int x, int y, int range) {
+int getMultiplesSum(int x, int y, int range) {
   int nx = (range - 1) / x;
   int sum1 = x * nx * (nx + 1) / 2;
   int ny = (range - 1) / y;

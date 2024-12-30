@@ -8,13 +8,9 @@ values do not exceed four million, find the sum of the
 even-valued terms.
 *******************************************************/
 
-#include <iostream>
+#include <stdio.h>
 
-using namespace std;
-
-#define MAXNUM 4000000
-
-int main(int argc, char *argv[]) {
+long long int getEvenFibonacciSum(long long int range) {
   /**
    * 解法二：观察
    * 1   1   2   3   5   8  13 21
@@ -27,14 +23,12 @@ int main(int argc, char *argv[]) {
   long long int b = 1;
   long long int c = a + b;
 
-  while (c < MAXNUM) {
+  while (c < range) {
     sum += c;
     a = b + c;
     b = c + a;
     c = a + b;
   }
 
-  cout << sum << endl;
-
-  return 0;
+  return sum;
 }
