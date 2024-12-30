@@ -9,6 +9,8 @@ add_executable(${module}
   $<TARGET_OBJECTS:projecteuler>
 )
 
+target_link_libraries(${module} PUBLIC m)
+
 target_include_directories(${module} PUBLIC
   ${PROJECT_SOURCE_DIR}/leetcode
   ${PROJECT_SOURCE_DIR}/projecteuler

@@ -11,6 +11,7 @@ extern "C" {
 
 extern int getMultiplesSum(int x, int y, int range);
 extern long long int getEvenFibonacciSum(long long int range);
+extern long long int getLargestPrimeFactor(long long int val);
 
 #ifdef __cplusplus
 }
