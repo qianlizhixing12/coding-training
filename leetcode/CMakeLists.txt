@@ -1,6 +1,7 @@
 set(module leetcode)
 
 add_library(${module} OBJECT
+  leetcode.c
   1.c
   2.c
 )

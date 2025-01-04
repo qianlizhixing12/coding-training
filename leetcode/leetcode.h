@@ -14,6 +14,9 @@ struct ListNode {
   struct ListNode *next;
 };
 
+extern struct ListNode *arrToList(int *arr, uint len);
+void freeList(struct ListNode *list);
+
 extern int *twoSum(int *nums, int numsSize, int target, int *returnSize);
 
 extern struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2);

@@ -47,6 +47,10 @@ extern void test_case_assert(const char *, int, bool);
       test_case_assert(__FUNCTION__, __LINE__, false);                         \
       break;                                                                   \
     }                                                                          \
+    if (arr1 == NULL && arr2 == NULL) {                                        \
+      test_case_assert(__FUNCTION__, __LINE__, true);                          \
+      break;                                                                   \
+    }                                                                          \
     if (arr1 == NULL || arr2 == NULL) {                                        \
       test_case_assert(__FUNCTION__, __LINE__, false);                         \
       break;                                                                   \
@@ -60,27 +64,29 @@ extern void test_case_assert(const char *, int, bool);
     test_case_assert(__FUNCTION__, __LINE__, true);                            \
   } while (0)
 
-#define TEST_CASE_LIST_INT_EQUAL(list1, list2)                                 \
+#define TEST_CASE_LIST_INT_EQUAL(list1, list2, type_node)                      \
   do {                                                                         \
+    type_node _list1 = list1;                                                  \
+    type_node _list2 = list2;                                                  \
     do {                                                                       \
-      if (list1 == NULL && list2 == NULL) {                                    \
+      if (_list1 == NULL && _list2 == NULL) {                                  \
         test_case_assert(__FUNCTION__, __LINE__, true);                        \
         break;                                                                 \
       }                                                                        \
-      if (list1 == NULL && list2 != NULL) {                                    \
+      if (_list1 == NULL && _list2 != NULL) {                                  \
         test_case_assert(__FUNCTION__, __LINE__, false);                       \
         break;                                                                 \
       }                                                                        \
-      if (list1 != NULL && list2 == NULL) {                                    \
+      if (_list1 != NULL && _list2 == NULL) {                                  \
         test_case_assert(__FUNCTION__, __LINE__, false);                       \
         break;                                                                 \
       }                                                                        \
-      if (list1->val != list2->val) {                                          \
+      if (_list1->val != _list2->val) {                                        \
         test_case_assert(__FUNCTION__, __LINE__, false);                       \
         break;                                                                 \
       }                                                                        \
-      list1 = list1->next;                                                     \
-      list2 = list2->next;                                                     \
+      _list1 = _list1->next;                                                   \
+      _list2 = _list2->next;                                                   \
     } while (1);                                                               \
   } while (0)
 

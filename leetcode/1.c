@@ -7,6 +7,15 @@ typedef struct {
   UT_hash_handle hh;
 } HashCache;
 
+static void HASH_FREE(HashCache *cache) {
+  HashCache *current, *tmp;
+
+  HASH_ITER(hh, cache, current, tmp) {
+    HASH_DEL(cache, current);
+    free(current);
+  }
+}
+
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,7 +31,7 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
       int *result = malloc(sizeof(int) * 2);
       result[0] = pair->idx;
       result[1] = i;
-      HASH_CLEAR(hh, cache);
+      HASH_FREE(cache);
       return result;
     }
 
@@ -32,7 +41,7 @@ int *twoSum(int *nums, int numsSize, int target, int *returnSize) {
     HASH_ADD_INT(cache, val, node);
   }
 
-  HASH_CLEAR(hh, cache);
+  HASH_FREE(cache);
   *returnSize = 0;
   return NULL;
 }
