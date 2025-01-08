@@ -1,3 +1,5 @@
+// 范围内3与5倍数的和 https://projecteuler.net/problem=1
+
 #include <stdio.h>
 #include <stdlib.h>
 

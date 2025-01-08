@@ -4,6 +4,8 @@
 What is the largest prime factor of the number 600851475143 ?
 *******************************************************/
 
+// 最大质因子 https://projecteuler.net/problem=3
+
 #include <math.h>
 #include <stdbool.h>
 #include <stdio.h>

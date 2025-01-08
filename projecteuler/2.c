@@ -8,6 +8,8 @@ values do not exceed four million, find the sum of the
 even-valued terms.
 *******************************************************/
 
+// 范围内斐波那契数列的和 https://projecteuler.net/problem=2
+
 #include <stdio.h>
 
 long long int getEvenFibonacciSum(long long int range) {

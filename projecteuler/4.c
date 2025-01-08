@@ -5,47 +5,51 @@ palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
 Find the largest palindrome made from the product of two 3-digit numbers.
 *******************************************************/
 
-#include <iostream>
-#include <string>
-#include <cmath>
+// 最大回文数 https://projecteuler.net/problem=4
 
-using namespace std;
+#include <math.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-int getLargestPalindrome(int bit);
-bool isPalindrome(int number);
+static bool isPalindrome(char *number) {
+  if (number == NULL) {
+    return false;
+  }
 
-int main() {
-  cout << getLargestPalindrome(3) << endl;
-  return 0;
+  int r = strlen(number) - 1;
+  int l = 0;
+
+  while (l < r) {
+    if (number[l++] != number[r--]) {
+      return false;
+    }
+  }
+
+  return true;
 }
 
 int getLargestPalindrome(int bit) {
   int iMax = pow(10, bit) - 1;
   int iMin = pow(10, bit - 1) + 1;
   int result = 0;
+  char *buf = malloc(sizeof(char) * 2 * bit);
+
   for (int i = iMax; i >= iMin; i--) {
     for (int j = i; j >= iMin; j--) {
       int tmp = i * j;
       if (result >= tmp) {
         break;
       }
-      if (isPalindrome(tmp)) {
+
+      sprintf(buf, "%d%c", tmp, '\0');
+      if (isPalindrome(buf)) {
         result = tmp;
       }
     }
   }
-  return result;
-}
 
-bool isPalindrome(int number) {
-  // sprintf(tmp, "%ld", number)
-  string s = to_string(number);
-  int r = s.size() - 1;
-  int l = 0;
-  while (l < r) {
-    if (s[l++] != s[r--]) {
-      return false;
-    }
-  }
-  return true;
+  free(buf);
+  return result;
 }

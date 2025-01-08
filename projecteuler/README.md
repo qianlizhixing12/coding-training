@@ -1,9 +1,3 @@
-[projecteuler](https://projecteuler.net/)
-
-- [1 范围内3与5倍数的和](https://projecteuler.net/problem=1)
-- [2 范围内斐波那契数列的和](https://projecteuler.net/problem=2)
-- [3 最大质因子](https://projecteuler.net/problem=3)
-- [4 最大回文数](https://projecteuler.net/problem=4)
 - [5 最小合数](https://projecteuler.net/problem=5)
 - [6 和平方与平方和值之差](https://projecteuler.net/problem=6)
 - [7 第10001个质数](https://projecteuler.net/problem=7)

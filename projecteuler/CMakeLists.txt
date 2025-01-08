@@ -1,10 +1,8 @@
 set(module projecteuler)
 
-add_library(${module} OBJECT
-  1.c
-  2.c
-  3.c
-)
+
+file(GLOB_RECURSE SRC_LIST "./*.c")	
+add_library(${module} OBJECT ${SRC_LIST})
 
 target_link_libraries(${module} PUBLIC m)
 

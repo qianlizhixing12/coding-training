@@ -14,8 +14,14 @@ static void llt_getLargestPrimeFactor(void) {
   TEST_CASE_TRUE(getLargestPrimeFactor(600851475143) == 6857);
 }
 
+static void llt_getLargestPalindrome(void) {
+  TEST_CASE_TRUE(getLargestPalindrome(2) == 9009);
+  TEST_CASE_TRUE(getLargestPalindrome(3) == 906609);
+}
+
 void projecteuler(void) {
   TEST_CASE_ADD(llt_getMultiplesSum);
   TEST_CASE_ADD(llt_getEvenFibonacciSum);
   TEST_CASE_ADD(llt_getLargestPrimeFactor);
+  TEST_CASE_ADD(llt_getLargestPalindrome);
 }
