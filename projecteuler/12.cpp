@@ -17,8 +17,10 @@ What is the value of the first triangle number to have over five hundred
 divisors?
 *******************************************************/
 
-#include <iostream>
+// 质因子个数 https://projecteuler.net/problem=12
+
 #include <cmath>
+#include <iostream>
 
 using namespace std;
 

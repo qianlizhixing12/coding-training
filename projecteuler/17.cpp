@@ -9,6 +9,8 @@ fifteen) contains 20 letters. The use of "and" when writing out numbers is in
 compliance with British usage.
 *******************************************************/
 
+// 数字英文写法包含的字母 https://projecteuler.net/problem=17
+
 #include <iostream>
 #include <string>
 #include <vector>

@@ -13,9 +13,11 @@ NOTE: Once the chain starts the terms are allowed to
 go above one million.
 *******************************************************/
 
-#include <iostream>
+// 最长Collatz序列 https://projecteuler.net/problem=14
+
 #include <cstdlib>
 #include <cstring>
+#include <iostream>
 #include <unordered_map>
 
 using namespace std;

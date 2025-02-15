@@ -4,10 +4,12 @@
 What is the sum of the digits of the number 2<<1000?
 *******************************************************/
 
-#include <iostream>
-#include <vector>
+// 2的幂各个位数字之和 https://projecteuler.net/problem=16
+
 #include <algorithm>
+#include <iostream>
 #include <numeric>
+#include <vector>
 // #include <bits/stdc++.h>
 
 using namespace std;

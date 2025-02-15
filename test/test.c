@@ -414,11 +414,21 @@ static bool test_suite_select() {
   return true;
 }
 
-void test_case_run() {
+void test_case_run_select() {
   (void)pthread_mutex_lock(&g_lock);
 
   while (test_suite_select()) {
   }
+
+  test_suite_free();
+  (void)pthread_mutex_unlock(&g_lock);
+}
+
+void test_case_run_all() {
+  (void)pthread_mutex_lock(&g_lock);
+
+  test_suite_run();
+  test_case_result(NULL, NULL);
 
   test_suite_free();
   (void)pthread_mutex_unlock(&g_lock);

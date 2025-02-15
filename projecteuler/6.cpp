@@ -10,6 +10,8 @@ Find the difference between the sum of the squares of the first
 one hundred natural numbers and the square of the sum.
 *******************************************************/
 
+// 和平方与平方和值之差 https://projecteuler.net/problem=6
+
 #include <iostream>
 
 using namespace std;

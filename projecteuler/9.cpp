@@ -6,6 +6,8 @@ There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the product abc.
 *******************************************************/
 
+// 毕达哥拉斯三元数组 https://projecteuler.net/problem=9
+
 #include <iostream>
 
 using namespace std;

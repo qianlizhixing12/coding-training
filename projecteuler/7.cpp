@@ -4,6 +4,8 @@
 we can see that the 6th prime is 13.What is the 10 001st prime number?
 *******************************************************/
 
+// 第10001个质数 https://projecteuler.net/problem=7
+
 #include <iostream>
 #include <vector>
 

@@ -30,8 +30,6 @@ function make_workspace()
 function set_asan()
 {
   compile_flag="${compile_flag} -g -fsanitize=address -fno-omit-frame-pointer -fsanitize-recover=address -fno-common"
-  # export ASAN_OPTIONS="stack_trace_format='  #%n %p in %f (%m+%o)':detect_leaks=1:halt_on_error=0:alloc_dealloc_mismatch=0:log_path=${output}/asan/asan_report.log"
-  export ASAN_OPTIONS="stack_trace_format='  #%n %p in %f (%s:%l)':detect_leaks=1:halt_on_error=0:alloc_dealloc_mismatch=0:log_path=${output}/asan/asan_report.log"
 }
 
 function set_tasn()
@@ -61,17 +59,6 @@ function set_feature()
   fi
 }
 
-function get_coverage()
-{
-  mkdir "${output}/coverage"
-
-  pushd "${output}/coverage"
-    lcov --rc branch_coverage=1 -c -d ${build} -o coverage_all.info
-    lcov --rc branch_coverage=1 --remove coverage_all.info '/usr/*' '*/test/*' -o coverage.info
-    genhtml --branch-coverage -o ./ coverage.info
-  popd
-}
-
 function main()
 {
   while getopts 'f:h' opt; do
@@ -89,14 +76,6 @@ function main()
     # make VERBOSE=1
     make
   popd
-
-  pushd "${output}/bin"
-    ./llt_test
-  popd
-
-  if [ "${feature}" == "gcov" ]; then
-    get_coverage
-  fi
 }
 
 main $@

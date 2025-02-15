@@ -34,9 +34,11 @@ containing one-hundred rows; it cannot be solved by brute force, and requires a
 clever method! ;o)
 *******************************************************/
 
+// 三角路径最大值 https://projecteuler.net/problem=18
+
 #include <iostream>
-#include <string>
 #include <sstream>
+#include <string>
 #include <vector>
 
 using namespace std;
@@ -71,7 +73,7 @@ int getMaximumPathSum(string &s) {
       cur = 0;
     }
   }
-  //动态规划
+  // 动态规划
   for (int i = pre - 2; i >= 0; i--) {
     int r = data[i].size();
     for (int j = 0; j < r; j++) {

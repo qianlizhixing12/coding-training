@@ -27,12 +27,14 @@ What is the greatest product of four adjacent numbers in the same
 direction (up, down, left, right, or diagonally) in the 20×20 grid?
 *******************************************************/
 
+// 相邻数字最大乘积 https://projecteuler.net/problem=11
+
 #include <iostream>
-#include <string>
 #include <sstream>
+#include <string>
 // #include
-#include <vector>
 #include <cmath>
+#include <vector>
 
 using namespace std;
 

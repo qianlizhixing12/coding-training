@@ -104,6 +104,8 @@ one-hundred 50-digit numbers.
 53503534226472524250874054075591789781264330331690
 *******************************************************/
 
+// 数字和前10位 https://projecteuler.net/problem=13
+
 #include <iostream>
 #include <sstream>
 #include <string>

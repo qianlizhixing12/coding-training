@@ -22,7 +22,8 @@ extern "C" {
 typedef unsigned int uint;
 typedef void(test_fun)(void);
 
-extern void test_case_run();
+extern void test_case_run_select();
+extern void test_case_run_all();
 extern void test_case_add(const char *, const char *, test_fun *);
 extern void test_case_assert(const char *, int, bool);
 
