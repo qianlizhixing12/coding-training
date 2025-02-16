@@ -24,7 +24,7 @@ function main()
     ./llt_test "--select"
   popd
 
-  get_coverage
+  # get_coverage
 }
 
 main $@

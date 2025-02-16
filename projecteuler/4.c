@@ -34,7 +34,8 @@ int getLargestPalindrome(int bit) {
   int iMax = pow(10, bit) - 1;
   int iMin = pow(10, bit - 1) + 1;
   int result = 0;
-  char *buf = malloc(sizeof(char) * 2 * bit);
+  size_t bufLen = sizeof(char) * 2 * bit;
+  char *buf = malloc(bufLen);
 
   for (int i = iMax; i >= iMin; i--) {
     for (int j = i; j >= iMin; j--) {
@@ -43,7 +44,8 @@ int getLargestPalindrome(int bit) {
         break;
       }
 
-      sprintf(buf, "%d%c", tmp, '\0');
+      memset(buf, 0, bufLen);
+      snprintf(buf, bufLen - 1, "%d", tmp);
       if (isPalindrome(buf)) {
         result = tmp;
       }

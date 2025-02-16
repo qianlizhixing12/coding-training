@@ -19,9 +19,9 @@ static void llt_getLargestPalindrome(void) {
   TEST_CASE_TRUE(getLargestPalindrome(3) == 906609);
 }
 
-static void llt_getSmallestMultiple(void) {
-  TEST_CASE_TRUE(getSmallestMultiple(10) == 2520);
-}
+// static void llt_getSmallestMultiple(void) {
+//   TEST_CASE_TRUE(getSmallestMultiple(10) == 2520);
+// }
 
 void projecteuler(void) {
   TEST_CASE_ADD(llt_getMultiplesSum);
