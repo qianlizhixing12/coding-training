@@ -3,7 +3,7 @@
 - 编程训练
 - c python解题
 - 使用单元测试，而不是main函数
-- projecteuler|leetcode|nowcoder|nasm
+- projecteuler|leetcode|nowcoder
 
 ### 说明
 
