@@ -1,0 +1,66 @@
+pipeline {
+    agent {
+        node {
+            label 'built-in'
+            customWorkspace params.ProjectWorkspace
+        }
+    }
+    environment {
+        ASAN_OPTIONS = "stack_trace_format='  #%n %p in %f (%s:%l)':detect_leaks=1:halt_on_error=0:alloc_dealloc_mismatch=0:log_path=${WORKSPACE}/output/asan/asan_report.log"
+    }
+    stages {
+        stage('Build') {
+            steps {
+                sh './build.sh -f gcov'
+            }
+        }
+        stage('Run') {
+            steps {
+                sh 'cd ./output/bin && ./llt_test --all'
+            }
+        }
+        stage('Result') {
+            parallel {
+                stage('Cov Report') {
+                    steps {
+                        dir('./output/coverage') {
+                            sh '''
+                                lcov --rc branch_coverage=1 -c -d ${WORKSPACE}/build -o coverage_all.info
+                                lcov --rc branch_coverage=1 --remove coverage_all.info '/usr/*' '*/test/*' -o coverage.info
+                                genhtml --branch-coverage -o ./ coverage.info
+                            '''
+                            
+                            publishHTML (target : [allowMissing: false,
+                                alwaysLinkToLastBuild: true,
+                                keepAll: true,
+                                reportDir: './',
+                                reportFiles: 'index.html',
+                                reportName: 'Cov Report',
+                                reportTitles: 'The Report']
+                            )
+                        }
+                    }
+                }
+                stage('Asan Report') {
+                    steps {
+                        dir('./output/asan') {
+                            script {
+                                def files = findFiles glob: 'asan_report.log.*'
+                                // if (fileExists('asan_report.log.*')) { //不支持正则表达式
+                                if (files.length > 0) {
+                                    archiveArtifacts artifacts: 'asan_report.log.*', fingerprint: true, allowEmptyArchive: true
+                                    currentBuild.result = 'FAILURE'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        stage('Clear') {
+            steps {
+                sh 'rm -rf output build'
+            }
+        }
+    }
+}

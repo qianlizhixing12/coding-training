@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+# -*- coding:UTF-8 -*-
+
+# cp pre-push .git/hooks/
+# chmod 774 .git/hooks/pre-push
+
+project_path=$(pwd)
+echo "pre-push info $*"
+echo "pre-push path ${project_path}"
+
+jenkins_url="http://127.0.0.1:8080"
+jenkins_user="admin"
+jenkins_token="11062876840efae11e21b0f5a2539759bc"
+
+while read local_ref local_oid remote_ref remote_oid
+do
+  echo "pre-push argv" "$local_ref" "$local_oid" "$remote_ref" "$remote_oid"
+  # curl -X POST -L --user ${jenkins_user}:${jenkins_token} ${jenkins_url}/job/llt-coding-training/buildWithParameters --data ProjectWorkspace=${project_path}
+
+  response=$(curl -s -X POST -u ${jenkins_user}:${jenkins_token} "${jenkins_url}/job/llt-coding-training/buildWithParameters?ProjectWorkspace=${project_path}" -I)
+  queue_location=$(echo "$response" | grep Location | awk '{print $2}' | tr -d '\r')
+  queue_id=$(basename "$queue_location")
+
+  build_number=""
+  while [ -z "$build_number" ]; do
+    sleep 5
+    queue_info=$(curl -s -u ${jenkins_user}:${jenkins_token} "${jenkins_url}/queue/item/${queue_id}/api/json")
+    build_number=$(echo "${queue_info}" | jq -r '.executable.number // empty')
+  done
+
+  build_result=""
+  while [ "$build_result" != "SUCCESS" ] && [ "$build_result" != "FAILURE" ] && [ "$build_result" != "ABORTED" ]; do
+    sleep 10
+    build_info=$(curl -s -u ${jenkins_user}:${jenkins_token} "${jenkins_url}/job/llt-coding-training/${build_number}/api/json")
+    build_result=$(echo "${build_info}" | jq -r '.result // empty')
+  done
+
+  if [ "$build_result" != "SUCCESS" ]; then
+    echo "fail detail http://127.0.0.1:8080/job/llt-coding-training/"
+    exit 1
+  fi
+done
