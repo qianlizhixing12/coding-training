@@ -18,19 +18,8 @@ extern void leetcode(void);
 extern void projecteuler(void);
 
 int main(int argc, char **argv) {
-  if (argc != 2) {
-    printf("run llt --select/--all");
-    return 0;
-  }
-
   leetcode();
   projecteuler();
 
-  if (strcmp(argv[1], "--select") == 0) {
-    test_case_run_select();
-  } else if (strcmp(argv[1], "--all") == 0) {
-    test_case_run_all();
-  }
-
-  return 0;
+  return test_case_main(argc, argv);
 }

@@ -1,6 +1,8 @@
 #include "test.h"
 #include <ctype.h>
 #include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 #ifdef __cplusplus
 extern "C" {
@@ -23,6 +25,7 @@ typedef struct Suite {
 
 static pthread_mutex_t g_lock = PTHREAD_MUTEX_INITIALIZER;
 static TestSuite *g_suite = NULL;
+static char *g_save = NULL;
 
 static void test_suite_free() {
   TestSuite *tmp = g_suite;
@@ -414,7 +417,7 @@ static bool test_suite_select() {
   return true;
 }
 
-void test_case_run_select() {
+static void test_case_run_select() {
   (void)pthread_mutex_lock(&g_lock);
 
   while (test_suite_select()) {
@@ -424,11 +427,48 @@ void test_case_run_select() {
   (void)pthread_mutex_unlock(&g_lock);
 }
 
-void test_case_run_all() {
+static void test_case_result_save() {
+  if (g_save == NULL) {
+    return;
+  }
+
+  FILE *fp = fopen(g_save, "w");
+  if (fp == NULL) {
+    return;
+  }
+
+  int total_run = 0;
+  int total_pass = 0;
+  int total_fail = 0;
+  fputc('{', fp);
+
+  TestSuite *tmp = g_suite;
+  while (tmp != NULL) {
+    TestCase *node = tmp->cases;
+    while (node != NULL) {
+      fprintf(fp, "\"%s.%s\":{\"run\":%d,\"pass\":%d,\"fail\":%d},", tmp->name,
+              node->name, node->run, node->pass, node->fail);
+      total_run += node->run;
+      total_pass += node->pass;
+      total_fail += node->fail;
+      node = node->next;
+    }
+    tmp = tmp->next;
+  }
+
+  fprintf(fp, "\"total_run\":%d,\"total_pass\":%d,\"total_fail\":%d", total_run,
+          total_pass, total_fail);
+
+  fputc('}', fp);
+  fclose(fp);
+}
+
+static void test_case_run_all() {
   (void)pthread_mutex_lock(&g_lock);
 
   test_suite_run();
   test_case_result(NULL, NULL);
+  test_case_result_save();
 
   test_suite_free();
   (void)pthread_mutex_unlock(&g_lock);
@@ -450,6 +490,41 @@ void test_case_assert(const char *testcase, int line, bool result) {
 
     tmp = tmp->next;
   }
+}
+
+int test_case_main(int argc, char **argv) {
+  if (argc < 2) {
+    printf("./main --select/--all [--save result_file_path]");
+    return TEST_CASE_USR_PARAM_CHECK;
+  }
+
+  if (strcmp(argv[1], "--select") == 0) {
+    if (argc > 2) {
+      printf("./main --select");
+      return TEST_CASE_USR_PARAM_CHECK;
+    }
+
+    test_case_run_select();
+    return TEST_CASE_OK;
+  }
+
+  if (strcmp(argv[1], "--all") == 0) {
+    if (argc > 2 && argc != 4) {
+      printf("./main --all [--save result_file_path]");
+      return TEST_CASE_USR_PARAM_CHECK;
+    }
+    if (argc == 4 && (strcmp(argv[2], "--save") != 0 || argv[3][0] == '\0')) {
+      printf("./main --all [--save result_file_path]");
+      return TEST_CASE_USR_PARAM_CHECK;
+    }
+
+    g_save = argv[3];
+    test_case_run_all();
+    return TEST_CASE_OK;
+  }
+
+  printf("./main --select/--all [--save result_file_path]");
+  return TEST_CASE_USR_PARAM_CHECK;
 }
 
 #ifdef __cplusplus

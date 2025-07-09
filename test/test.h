@@ -22,10 +22,53 @@ extern "C" {
 typedef unsigned int uint;
 typedef void(test_fun)(void);
 
-extern void test_case_run_select();
-extern void test_case_run_all();
-extern void test_case_add(const char *, const char *, test_fun *);
-extern void test_case_assert(const char *, int, bool);
+/**
+ * @brief   运行测试框架入口主函数
+ *
+ * @param[in]  argc  参数个数
+ * @param[in]  argv  参数值
+ * @return  运行结果
+ *
+ * @note
+ *    1 透传main函数入参
+ *    2 支持两种运行模式：
+ *     2.1 ./main --select 交互式运行测试套测试用例，需用户主动退出
+ *     2.2 ./main --all 全量运行测试套测试用例，运行完自动退出
+ *           可选参数--save result_file_path 保存运行结果到文件(json格式)
+ */
+extern int test_case_main(int argc, char **argv);
+
+/**
+ * @brief   添加测试用例
+ *
+ * @param[in]  testsuite  测试套名称
+ * @param[in]  testcase  测试用例名称
+ * @param[in]  testfun  测试函数，原型参考test_fun
+ * @return  void
+ *
+ * @note
+ *    1 添加失败，整个进程退出，退出码参数宏定义
+ *    2 testfun内部申请的内存内部释放，测试框架不会释放testfun内部申请的内存
+ */
+extern void test_case_add(const char *testsuite, const char *testcase,
+                          test_fun *testfun);
+
+/**
+ * @brief   判断测试预期
+ *
+ * @param[in]  testcase  测试用例名称
+ * @param[in]  line  测试条件在源码中行数
+ * @param[in]  result  测试结果
+ * @return  void
+ *
+ * @note
+ *    1 不同测试套里面的测试用例名称不能重复，重复会导致运行的测试用例不准确
+ *    2 不直接使用该函数，使用封装的宏定义
+ *       TEST_CASE_TRUE
+ *       TEST_CASE_ARRAY_INT_EQUAL
+ *       TEST_CASE_LIST_INT_EQUAL
+ */
+extern void test_case_assert(const char *testcase, int line, bool result);
 
 #define TEST_CASE_ADD(fun)                                                     \
   do {                                                                         \

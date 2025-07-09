@@ -2,6 +2,8 @@
 *.o
 *.obj
 *.exe
+build/*
+output/*
 # 跟踪文件
 !.gitignore
 !*.md
